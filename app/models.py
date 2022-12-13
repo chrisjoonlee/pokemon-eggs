@@ -79,6 +79,8 @@ class UserPokemon(db.Model):
 
     @staticmethod
     def train(user_id):
+        new_hatch_id = None
+
         # Get user's pokemon
         users_pokemon = UserPokemon \
             .query \
@@ -95,13 +97,27 @@ class UserPokemon(db.Model):
             # If eggs reach level 8, they hatch
             if user_pokemon.pokemon_id == 0 and \
                     user_pokemon.level >= settings['clicks_till_hatch']:
+                # Find random baby pokemon
+                pokemon = None
+                while True:
+                    id = int(random() * 151) + 1
+                    pokemon = Pokemon.query.get(id)
+                    if pokemon.baby:
+                        break
+                print("New Pokemon:", pokemon.name)
+
                 # Replace data with that of new pokemon
-                user_pokemon.pokemon_id = int(random() * 151) + 1
+                user_pokemon.pokemon_id = pokemon.id
                 user_pokemon.time_hatched = datetime.now()
                 user_pokemon.level = 0
+
+                new_hatch_id = user_pokemon.id
 
             # Check for evolution
             if user_pokemon.pokemon.evolution_lvl and user_pokemon.level >= user_pokemon.pokemon.evolution_lvl:
                 user_pokemon.pokemon_id = user_pokemon.pokemon.evolution_id
 
         db.session.commit()
+
+        # Return whether or not a pokemon hatched or not
+        return new_hatch_id

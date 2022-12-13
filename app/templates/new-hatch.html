@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="new-hatch-page">
+    <h1>Congratulations!</h1>
+    <h2>Your egg just hatched into a {{ user_pokemon.pokemon.name }}!</h2>
+
+    <img src="{{ user_pokemon.pokemon.img_url }}" />
+
+    <h3>If you want, you can give it a nickname.</h3>
+    <h3>Otherwise, just press "Enter"</h3>
+
+    <form method="post" action="/pokemon/{{ user_pokemon.id }}/new_hatch">
+        {{ form.csrf_token }}
+
+        {{ form.nickname(class="nickname-input", placeholder="Enter nickname here") }}
+        {{ form.submit(class="nickname-btn") }}
+
+        <!-- <input type="text" placeholder="Enter nickname here" class="nickname-input">
+        <button class="nickname-btn">Enter</button> -->
+    </form>
+</div>
+{% endblock %}

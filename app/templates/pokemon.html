@@ -32,7 +32,9 @@
                 <a href="/pokemon/{{ user_pokemon.id }}">
                     <div class="pokemon-widget">
                         {% endif %}
-                        <img src="{{ user_pokemon.pokemon.img_url }}" />
+                        <div class="img-container">
+                            <img src="{{ user_pokemon.pokemon.img_url }}" />
+                        </div>
 
                         <p class="pokemon-widget-name">{{ user_pokemon.pokemon.name }}</p>
 

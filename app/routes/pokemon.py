@@ -5,6 +5,7 @@ from random import random
 from sqlalchemy import and_
 
 from app.models import db, Pokemon, User, UserPokemon
+from app.forms.nickname import NicknameForm
 
 from app.settings import settings
 
@@ -67,37 +68,42 @@ def new_egg():
     return redirect(url_for('.index'))
 
 
-@bp.route("/fix", methods=["POST"])
-@ login_required
-def new_pokemon():
-    # Find new baby pokemon species
-    pokemon = None
-    while True:
-        id = int(random() * 151) + 1
-        pokemon = Pokemon.query.get(id)
-        if pokemon.baby:
-            break
-    print("POKEMON:", pokemon.name)
-
-    # Add new pokemon to user
-    new_pokemon = UserPokemon(user_id=current_user.id,
-                              pokemon_id=pokemon.id,
-                              time_received=datetime.now(),
-                              level=1)
-    db.session.add(new_pokemon)
-    db.session.commit()
-
-    return redirect(url_for('.index'))
-
-
 @bp.route("/train", methods=["POST"])
 @ login_required
 def train():
     # All pokemon level up by 1
-    UserPokemon.train(current_user.id)
+    new_hatch_id = UserPokemon.train(current_user.id)
 
     # User's exp increases by 1
     current_user.exp += 1
     db.session.commit()
 
-    return redirect(url_for('.index'))
+    # Check if there is a new hatch
+    if new_hatch_id:
+        return redirect(f'/pokemon/{new_hatch_id}/new_hatch')
+    else:
+        return redirect(url_for('.index'))
+
+
+@ bp.route("/<id>/new_hatch", methods=["GET", "POST"])
+@ login_required
+def new_hatch(id):
+    # Fetch new pokemon
+    user_pokemon = UserPokemon \
+        .query \
+        .join(Pokemon) \
+        .filter(UserPokemon.id == int(id)) \
+        .first()
+
+    form = NicknameForm()
+    if form.validate_on_submit():
+        print("VALIDATED")
+        nickname = form.nickname.data
+        if nickname:
+            user_pokemon.nickname = nickname
+        print("HEY REDIRECT")
+        return redirect(url_for(".index"))
+
+    return render_template("new-hatch.html",
+                           form=form,
+                           user_pokemon=user_pokemon)

@@ -1,0 +1,48 @@
+.new-hatch-page {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    text-align: center;
+}
+
+.new-hatch-page h1 {
+    font-size: 4rem;
+}
+
+.new-hatch-page h2 {
+    font-size: 2rem;
+}
+
+.new-hatch-page h3 {
+    font-size: 1.5rem;
+}
+
+.new-hatch-page img {
+    width: 300px;
+}
+
+.new-hatch-page form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.nickname-input {
+    font-size: 2rem;
+    padding: 10px 15px;
+}
+
+.nickname-input,
+textarea {
+    text-align: center;
+}
+
+.nickname-btn {
+    background-color: rgb(139, 236, 139);
+}
+
+.nickname-btn:hover {
+    background-color: rgb(83, 165, 83);
+    color: white;
+}
