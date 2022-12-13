@@ -909,7 +909,8 @@
         "id": 101,
         "name": "Electrode",
         "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/84/101Electrode.png/revision/latest/scale-to-width-down/200?cb=20140328205301",
-        "type1": "Electric"
+        "type1": "Electric",
+        "description": "Electrode is a round Pokémon resembling an upside-down Poké Ball with a mouth and eyes. Its top half is white, while its lower half is red. For this reason, many Trainers try to pick it up, mistaking it for an item. The Pocket Monsters Carddass Trading Cards depict Electrode as hollow. Many know it by the nickname \"Bomb Ball\", due to its unpredictable and explosive nature."
     },
     {
         "id": 102,
@@ -1045,7 +1046,8 @@
         "id": 117,
         "name": "Seadra",
         "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/26/117Seadra.png/revision/latest/scale-to-width-down/200?cb=20140328205801",
-        "type1": "Water"
+        "type1": "Water",
+        "description": "Seadra is a light blue, piscine Pokémon that is similar to a seahorse with a cream-colored belly covered in rough scales. It has a long, tubular mouth, narrow, black eyes, a fin-like ridge above each eye, and spiny pectoral fins. It also has a large, coiled tail. It has a pair of dorsal fins with sharp, cream-colored tips that exude venom. Seadra's venom is toxic enough to induce numbness and even fainting in humans, but it is still prized among practitioners of traditional medicine."
     },
     {
         "id": 118,
@@ -1061,7 +1063,8 @@
         "id": 119,
         "name": "Seaking",
         "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/6a/119Seaking.png/revision/latest/scale-to-width-down/200?cb=20140328205801",
-        "type1": "Water"
+        "type1": "Water",
+        "description": "Seaking is a primarily orange-and-white, piscine Pokémon. It has round, dark eyes, prominent pink lips, two small fangs, and a cream-colored horn in the center of its forehead. A female will have a smaller horn than a male. Most of its body is orange with a patch of white under its mouth and along its underside. There are several black markings on its body: two thick lines under each eye, a large wavy patch on its back, and several speckles near its tail. It has billowing pectoral fins and a pair of tail fins shaped like butterfly wings, all of which are white speckled with black. However, its dorsal fin is pure white and rigid."
     },
     {
         "id": 120,
