@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Pokemon</h1>
+<div class="main-pokemon-container">
+    <img class="pokemon-img" src="https://i.pinimg.com/originals/02/c7/05/02c70572482476ba3ec8c4962f883705.png" />
+    <form method="POST" action="{{ url_for('.new_pokemon') }}">
+        <button>Get an egg</button>
+    </form>
+</div>
 {% endblock %}
