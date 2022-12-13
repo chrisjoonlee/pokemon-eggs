@@ -67,14 +67,20 @@ class UserPokemon(db.Model):
 
     @staticmethod
     def train(user_id):
+        # Get user's pokemon
         users_pokemon = UserPokemon \
             .query \
             .join(User) \
             .filter(UserPokemon.user_id == user_id) \
             .all()
 
+        # Level up all pokemon by 1
         for user_pokemon in users_pokemon:
             if user_pokemon.level < 100:
                 user_pokemon.level += 1
+
+            # Check for evolution
+            if user_pokemon.pokemon.evolution_lvl and user_pokemon.level >= user_pokemon.pokemon.evolution_lvl:
+                user_pokemon.pokemon_id = user_pokemon.pokemon.evolution_id
 
         db.session.commit()
