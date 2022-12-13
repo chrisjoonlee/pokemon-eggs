@@ -20,6 +20,8 @@ user_pokemon = db.Table(
     db.Column("nickname", db.String(50)),
     db.Column("time_hatched",
               db.DateTime(timezone=True),
+              nullable=False),
+    db.Column("level", db.Integer,
               nullable=False)
 
 )
