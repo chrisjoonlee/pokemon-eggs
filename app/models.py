@@ -56,6 +56,7 @@ class Pokemon(db.Model):
     img_url = db.Column(db.String(255), nullable=False)
     type1 = db.Column(db.String(50), nullable=False)
     type2 = db.Column(db.String(50))
+    baby = db.Column(db.Boolean, nullable=False)
     evolution_id = db.Column(db.Integer)
     evolution_lvl = db.Column(db.Integer)
     description = db.Column(db.String(1000), nullable=False)
