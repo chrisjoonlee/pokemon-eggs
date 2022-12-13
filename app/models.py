@@ -1,8 +1,13 @@
+from datetime import datetime
 from flask_login import UserMixin
 from flask_sqlalchemy import SQLAlchemy
+from random import random
 from sqlalchemy import and_
+from sqlalchemy.orm import joinedload
 from sqlalchemy.sql import func
 from werkzeug.security import generate_password_hash, check_password_hash
+
+from app.settings import settings
 
 db = SQLAlchemy()
 
@@ -71,14 +76,23 @@ class UserPokemon(db.Model):
         # Get user's pokemon
         users_pokemon = UserPokemon \
             .query \
-            .join(User) \
-            .filter(and_(UserPokemon.user_id == user_id, UserPokemon.level > 0)) \
+            .options(joinedload(UserPokemon.user)) \
+            .filter(and_(UserPokemon.user_id == user_id,
+                         UserPokemon.id != 0),
+                    UserPokemon.level < 100) \
             .all()
 
         # Level up all pokemon by 1
         for user_pokemon in users_pokemon:
-            if user_pokemon.level < 100:
-                user_pokemon.level += 1
+            user_pokemon.level += 1
+
+            # If eggs reach level 8, they hatch
+            if user_pokemon.pokemon_id == 0 and \
+                    user_pokemon.level >= settings['clicks_till_hatch']:
+                # Replace data with that of new pokemon
+                user_pokemon.pokemon_id = int(random() * 151) + 1
+                user_pokemon.time_hatched = datetime.now()
+                user_pokemon.level = 0
 
             # Check for evolution
             if user_pokemon.pokemon.evolution_lvl and user_pokemon.level >= user_pokemon.pokemon.evolution_lvl:

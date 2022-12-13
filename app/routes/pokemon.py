@@ -34,7 +34,7 @@ def index():
 # POST route for /pokemon/new
 
 
-@bp.route("/egg", methods=["POST"])
+@bp.route("/new", methods=["POST"])
 @login_required
 def new_egg():
     # Add egg to user
@@ -52,7 +52,7 @@ def new_egg():
     return redirect(url_for('.index'))
 
 
-@bp.route("/new", methods=["POST"])
+@bp.route("/fix", methods=["POST"])
 @ login_required
 def new_pokemon():
     # Find new baby pokemon species
