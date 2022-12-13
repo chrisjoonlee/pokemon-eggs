@@ -2,34 +2,49 @@
 
 <!-- Content to inject into "base.html" -->
 {% block content %}
-<form method="post" action="{{ url_for('.login') }}">
-    {{ form.csrf_token }}
+<div class="landing-page">
 
-    <!-- Employee number field -->
-    <div>
-        {{ form.username.label }} {{ form.username }}
+    <img src="https://archives.bulbagarden.net/media/upload/thumb/b/b8/025Pikachu_LG.png/600px-025Pikachu_LG.png">
 
-        {% if form.username.errors %}
-        <ul>
-            {% for error in form.username.errors %}
-            <li>{{ error }}</li>
-            {% endfor %}
-        </ul>
-        {% endif %}
-    </div>
+    <h1 class="welcome-msg">
+        Welcome to
+    </h1>
+    <h1 class="welcome-msg">
+        Pokemon Eggs!
+    </h1>
 
-    <!-- Password field -->
-    <div>
-        {{ form.password.label }} {{ form.password }}
+    <form method="post" action="{{ url_for('.login') }}" class="login-form">
+        {{ form.csrf_token }}
 
-        {% if form.password.errors %}
-        <ul>
-            {% for error in form.password.errors %}
-            <li>{{ error }}</li>
-            {% endfor %}
-        </ul>
-        {% endif %}
-    </div>
-    <div>{{ form.login }}</div>
-</form>
+        <!-- Employee number field -->
+        <div>
+            {{ form.username.label }} {{ form.username(class="login-input") }}
+
+            {% if form.username.errors %}
+            <ul>
+                {% for error in form.username.errors %}
+                <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+
+        <!-- Password field -->
+        <div>
+            {{ form.password.label }} {{ form.password(class="login-input") }}
+
+            {% if form.password.errors %}
+            <ul>
+                {% for error in form.password.errors %}
+                <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+
+        <!-- Login -->
+        <div>{{ form.login(class="login-btn") }}</div>
+    </form>
+
+</div>
 {% endblock %}

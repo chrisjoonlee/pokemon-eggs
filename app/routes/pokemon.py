@@ -7,7 +7,7 @@ from app.models import db, Pokemon, User, UserPokemon
 
 from app.settings import settings
 
-bp = Blueprint("pokemon", __name__, url_prefix="")
+bp = Blueprint("pokemon", __name__, url_prefix="/pokemon")
 
 
 @bp.route("/")
@@ -33,6 +33,12 @@ def index():
                            clicks_per_egg=settings['clicks_per_egg'])
 
 # POST route for /pokemon/new
+
+
+@bp.route("/<id>")
+@login_required
+def pokemon_details(id):
+    return f"<h1>{id}</h1>"
 
 
 @bp.route("/new", methods=["POST"])

@@ -1,5 +1,5 @@
-from flask import Flask, redirect, render_template
-from flask_login import LoginManager
+from flask import Flask, redirect, url_for
+from flask_login import LoginManager, login_required
 from flask_migrate import Migrate
 
 from .config import Configuration
@@ -25,6 +25,7 @@ def load_user(id):
     return User.query.get(int(id))
 
 
+@login_required
 @app.route("/")
 def index():
-    return "<h1>Hello world</h1>"
+    return redirect(url_for("pokemon.index"))
