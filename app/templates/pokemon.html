@@ -9,9 +9,12 @@
     </form>
 
     <!-- Pokemon -->
-    {% for pokemon in users_pokemon %}
+    {% for user_pokemon in users_pokemon %}
     <diV class="pokemon-widget">
-        <p>{{ pokemon.pokemon_id }}</p>
+        <img src="{{ user_pokemon.pokemon.img_url }}" />
+
+        <p>{{ user_pokemon.pokemon.name }}</p>
+        <p>Level: {{ user_pokemon.level }}</p>
     </diV>
     {% endfor %}
 </div>

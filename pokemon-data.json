@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Bulbasaur",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/21/001Bulbasaur.png/revision/latest/scale-to-width-down/200?cb=20200620223551",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/21/001Bulbasaur.png",
         "type1": "Grass",
         "type2": "Poison",
         "baby": true,
@@ -13,7 +13,7 @@
     {
         "id": 2,
         "name": "Ivysaur",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/73/002Ivysaur.png/revision/latest/scale-to-width-down/350?cb=20140328190847",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/73/002Ivysaur.png",
         "type1": "Grass",
         "type2": "Poison",
         "evolution_id": 3,
@@ -23,7 +23,7 @@
     {
         "id": 3,
         "name": "Venusaur",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/ae/003Venusaur.png/revision/latest/scale-to-width-down/200?cb=20200731133335",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/ae/003Venusaur.png",
         "type1": "Grass",
         "type2": "Poison",
         "description": "Its English name is a portmanteau of \"Venus\" (relating to the Venus flytrap) and \"dinosaur\". It is based on the Pareiasaur. It is the mascot of Pokémon Green and LeafGreen. A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle. Its plant blooms when it is absorbing solar energy."
@@ -31,7 +31,7 @@
     {
         "id": 4,
         "name": "Charmander",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/73/004Charmander.png/revision/latest/scale-to-width-down/187?cb=20200620223744",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/73/004Charmander.png",
         "type1": "Fire",
         "baby": true,
         "evolution_id": 5,
@@ -41,7 +41,7 @@
     {
         "id": 5,
         "name": "Charmeleon",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/4a/005Charmeleon.png/revision/latest/scale-to-width-down/350?cb=20140328191309",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/4a/005Charmeleon.png",
         "type1": "Fire",
         "evolution_id": 6,
         "evolution_lvl": 36,
@@ -50,7 +50,7 @@
     {
         "id": 6,
         "name": "Charizard",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/7e/006Charizard.png/revision/latest/scale-to-width-down/200?cb=20200731134217",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/7e/006Charizard.png",
         "type1": "Fire",
         "type2": "Flying",
         "description": "It is a playable character as a part of the \"Pokémon Trainer\" fighter in Super Smash Bros. Brawl and Super Smash Bros. Ultimate, as well as a standalone fighter in Super Smash Bros. for Nintendo 3DS and Wii U. It is also the mascot of Pokémon Red and FireRed. In its Mega Charizard X form, it gains the dragon typing. Its English name is a portmanteau of \"char\" and \"lizard\"."
@@ -58,7 +58,7 @@
     {
         "id": 7,
         "name": "Squirtle",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/39/007Squirtle.png/revision/latest/scale-to-width-down/178?cb=20200620223922",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/39/007Squirtle.png",
         "type1": "Water",
         "baby": true,
         "evolution_id": 8,
@@ -68,7 +68,7 @@
     {
         "id": 8,
         "name": "Wartortle",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/0c/008Wartortle.png/revision/latest/scale-to-width-down/350?cb=20140328191553",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/0c/008Wartortle.png",
         "type1": "Water",
         "evolution_id": 9,
         "evolution_lvl": 36,
@@ -77,14 +77,14 @@
     {
         "id": 9,
         "name": "Blastoise",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/02/009Blastoise.png/revision/latest/scale-to-width-down/350?cb=20200731133731",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/02/009Blastoise.png",
         "type1": "Water",
         "description": "Its English name is a portmanteau of \"blast\" and \"tortoise\". It is the mascot of Pokémon Blue. In early stages of Red and Green's development, Blastoise was originally separate from the Squirtle line and was called \"Caravaggio\". A Blastoise trading card, which was originally made as a test print before the commercial English cards, was sold for $360,000 in 2021. The rocket cannons on its shell fire jets of water capable of punching holes through thick steel."
     },
     {
         "id": 10,
         "name": "Caterpie",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/5d/010Caterpie.png/revision/latest/scale-to-width-down/350?cb=20201109201919",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/5d/010Caterpie.png",
         "type1": "Bug",
         "baby": true,
         "evolution_id": 11,
@@ -94,7 +94,7 @@
     {
         "id": 11,
         "name": "Metapod",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cd/011Metapod.png/revision/latest/scale-to-width-down/350?cb=20140328191749",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cd/011Metapod.png",
         "type1": "Bug",
         "evolution_id": 12,
         "evolution_lvl": 10,
@@ -103,7 +103,7 @@
     {
         "id": 12,
         "name": "Butterfree",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/d1/012Butterfree.png/revision/latest/scale-to-width-down/350?cb=20140328191825",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/d1/012Butterfree.png",
         "type1": "Bug",
         "type2": "Flying",
         "description": "It rubs honey onto the hairs on its legs to carry it back to its nest. In battle, it flaps its wings at great speed to release spores and powders onto opponents. Its Gigantamax form is a tremendous size with huge, turquoise wings and resembles Mothra of the Godzilla franchise. It sheds toxic flakes of crystallized Gigantamax energy."
@@ -111,7 +111,7 @@
     {
         "id": 13,
         "name": "Weedle",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/df/013Weedle.png/revision/latest/scale-to-width-down/350?cb=20140328191838",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/df/013Weedle.png",
         "type1": "Bug",
         "type2": "Poison",
         "baby": true,
@@ -122,7 +122,7 @@
     {
         "id": 14,
         "name": "Kakuna",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f0/014Kakuna.png/revision/latest/scale-to-width-down/350?cb=20140328191918",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f0/014Kakuna.png",
         "type1": "Bug",
         "type2": "Poison",
         "evolution_id": 15,
@@ -132,7 +132,7 @@
     {
         "id": 15,
         "name": "Beedrill",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/61/015Beedrill.png/revision/latest/scale-to-width-down/350?cb=20140328191940",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/61/015Beedrill.png",
         "type1": "Bug",
         "type2": "Poison",
         "description": "Beedrill are highly aggressive and will violently swarm and sting anyone who approaches their hive. Beedrill appear as large hornets with spikes on their forearms."
@@ -140,7 +140,7 @@
     {
         "id": 16,
         "name": "Pidgey",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/55/016Pidgey.png/revision/latest/scale-to-width-down/350?cb=20140328192030",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/55/016Pidgey.png",
         "type1": "Normal",
         "type2": "Flying",
         "baby": true,
@@ -151,7 +151,7 @@
     {
         "id": 17,
         "name": "Pidgeotto",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/7a/017Pidgeotto.png/revision/latest/scale-to-width-down/200?cb=20140328192046",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/7a/017Pidgeotto.png",
         "type1": "Normal",
         "type2": "Flying",
         "evolution_id": 18,
@@ -161,7 +161,7 @@
     {
         "id": 18,
         "name": "Pidgeot",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/57/018Pidgeot.png/revision/latest/scale-to-width-down/200?cb=20140328192120",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/57/018Pidgeot.png",
         "type1": "Normal",
         "type2": "Flying",
         "description": "Most trainers choose Pidgeot as their Pokémon due to their striking, beautiful feathers. Pidgeots tend to be very large in size. Its highly decorated plumage is used to intimidate enemies. It races through the skies at Mach-2 speed."
@@ -169,7 +169,7 @@
     {
         "id": 19,
         "name": "Rattata",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/46/019Rattata.png/revision/latest/scale-to-width-down/200?cb=20140328192134",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/46/019Rattata.png",
         "type1": "Normal",
         "baby": true,
         "evolution_id": 20,
@@ -179,14 +179,14 @@
     {
         "id": 20,
         "name": "Raticate",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f4/020Raticate.png/revision/latest/scale-to-width-down/200?cb=20140328192215",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f4/020Raticate.png",
         "type1": "Normal",
         "description": "Raticate commands groups of Rattatas to gather food. Like Rattata, it has to whittle its teeth down, but as its teeth are much stronger, it requires harder objects such as steel and rocks. Like Rattata, Raticate has an Alolan form that is a Dark/Normal type."
     },
     {
         "id": 21,
         "name": "Spearow",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/8b/021Spearow.png/revision/latest/scale-to-width-down/200?cb=20140328192232",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/8b/021Spearow.png",
         "type1": "Normal",
         "type2": "Flying",
         "baby": true,
@@ -197,7 +197,7 @@
     {
         "id": 22,
         "name": "Fearow",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a0/022Fearow.png/revision/latest/scale-to-width-down/200?cb=20140328192324",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a0/022Fearow.png",
         "type1": "Normal",
         "type2": "Flying",
         "description": "Fearow is a lanky and awkward bird. Its English name is a portmanteau of \"fear\" and \"sparrow\". Fearow are large birds that can fly at extremely high altitudes for long periods of time."
@@ -205,7 +205,7 @@
     {
         "id": 23,
         "name": "Ekans",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/fa/023Ekans.png/revision/latest/scale-to-width-down/200?cb=20140328192338",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/fa/023Ekans.png",
         "type1": "Poison",
         "baby": true,
         "evolution_id": 24,
@@ -215,14 +215,14 @@
     {
         "id": 24,
         "name": "Arbok",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cd/024Arbok.png/revision/latest/scale-to-width-down/200?cb=20140328200611",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cd/024Arbok.png",
         "type1": "Poison",
         "description": "Jessie, a member of Team Rocket, owned an Arbok for the Kanto, Johto, and a small portion of the Advanced Generation series of the Pokémon anime. The pattern on its chest is changes everywhere it lives. It is hard to escape from its coil as it is so strong, it can crush a steel drum by constricting it. Its English name is \"kobra\" (which is pronounced the same as \"cobra\") spelled backwards."
     },
     {
         "id": 25,
         "name": "Pikachu",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/0d/025Pikachu.png/revision/latest/scale-to-width-down/200?cb=20200620223403",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/0d/025Pikachu.png",
         "type1": "Electric",
         "baby": true,
         "evolution_id": 26,
@@ -232,14 +232,14 @@
     {
         "id": 26,
         "name": "Raichu",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/88/026Raichu.png/revision/latest/scale-to-width-down/200?cb=20140328192425",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/88/026Raichu.png",
         "type1": "Electric",
         "description": "Unlike Pikachu, It is orange. Its tail is skinny and has a lightning bolt at the end. A female’s tail lacks a point. It can store over 100,000 volts of electricity. A single attack from this Pokemon is strong enough to knock out a Copperajah. Raichu has an Alolan form that is an Electric/Psychic type. Raichu and Alolan Raichu were created by Atsuko Nishida."
     },
     {
         "id": 27,
         "name": "Sandshrew",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9e/027Sandshrew.png/revision/latest/scale-to-width-down/200?cb=20140328192538",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9e/027Sandshrew.png",
         "type1": "Ground",
         "baby": true,
         "evolution_id": 28,
@@ -249,14 +249,14 @@
     {
         "id": 28,
         "name": "Sandslash",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/0b/028Sandslash.png/revision/latest/scale-to-width-down/200?cb=20140328192555",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/0b/028Sandslash.png",
         "type1": "Ground",
         "description": "Sandslash has the ability to curl into a spiny ball to attack or escape other Pokemon. Like Sandshrew, Sandslash has an Alolan form that is a Steel/Ice type. It climbs trees with its sharp claws. Sandslash shares the berries it gathers, dropping them down to Sandshrew."
     },
     {
         "id": 29,
         "name": "Nidoran♀",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/80/029Nidoran%E2%99%80.png/revision/latest/scale-to-width-down/200?cb=20140328192708",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/80/029Nidoran%E2%99%80.png",
         "type1": "Poison",
         "baby": true,
         "evolution_id": 30,
@@ -266,7 +266,7 @@
     {
         "id": 30,
         "name": "Nidorina",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cd/030Nidorina.png/revision/latest/scale-to-width-down/200?cb=20140328192725",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cd/030Nidorina.png",
         "type1": "Poison",
         "evolution_id": 31,
         "evolution_lvl": 32,
@@ -275,7 +275,7 @@
     {
         "id": 31,
         "name": "Nidoqueen",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/bf/031Nidoqueen.png/revision/latest/scale-to-width-down/200?cb=20140328192810",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/bf/031Nidoqueen.png",
         "type1": "Poison",
         "type2": "Ground",
         "description": "It pacifies offspring by placing them in the gaps between the spines on its back. The spines will never secrete poison while young are present. Its hide is so strong, not much can hurt it. It can only evolve using a Moon Stone."
@@ -283,7 +283,7 @@
     {
         "id": 32,
         "name": "Nidoran♂",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/02/032Nidoran%E2%99%82.png/revision/latest/scale-to-width-down/200?cb=20140328192838",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/02/032Nidoran%E2%99%82.png",
         "type1": "Poison",
         "baby": true,
         "evolution_id": 33,
@@ -293,7 +293,7 @@
     {
         "id": 33,
         "name": "Nidorino",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9f/033Nidorino.png/revision/latest/scale-to-width-down/200?cb=20140328192919",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9f/033Nidorino.png",
         "type1": "Poison",
         "evolution_id": 34,
         "evolution_lvl": 32,
@@ -302,7 +302,7 @@
     {
         "id": 34,
         "name": "Nidoking",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/c6/034Nidoking.png/revision/latest/scale-to-width-down/200?cb=20140328192939",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/c6/034Nidoking.png",
         "type1": "Poison",
         "type2": "Ground",
         "description": "Based on Baragon from the Godzilla franchise, it fights to protect its family and offspring. Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower"
@@ -310,7 +310,7 @@
     {
         "id": 35,
         "name": "Clefairy",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f4/035Clefairy.png/revision/latest/scale-to-width-down/200?cb=20140328193109",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f4/035Clefairy.png",
         "type1": "Fairy",
         "baby": true,
         "evolution_id": 36,
@@ -320,14 +320,14 @@
     {
         "id": 36,
         "name": "Clefable",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a9/036Clefable.png/revision/latest/scale-to-width-down/200?cb=20140328193123",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a9/036Clefable.png",
         "type1": "Fairy",
         "description": "It is rarely seen by people. Clefable walks around on moonlit nights, skipping lightly as if in flight, allowing it to walk on water. It has an extremely sharp sense of hearing; its sensitive ears allow it to detect a pin drop from a mile away."
     },
     {
         "id": 37,
         "name": "Vulpix",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/60/037Vulpix.png/revision/latest/scale-to-width-down/200?cb=20140328193205",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/60/037Vulpix.png",
         "type1": "Fire",
         "baby": true,
         "evolution_id": 38,
@@ -337,14 +337,14 @@
     {
         "id": 38,
         "name": "Ninetales",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/05/038Ninetales.png/revision/latest/scale-to-width-down/200?cb=20210616231031",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/05/038Ninetales.png",
         "type1": "Fire",
         "description": "Its design is inspired by the nine-tailed fox of East Asian myth. Like Vulpix, Ninetales has an Alolan form, granting it the Ice/Fairy typing. Ninetales are considered to be beasts of great power and said to live very long lives. Grabbing one of its tails without permission grants a 1,000 year curse—or so it is said."
     },
     {
         "id": 39,
         "name": "Jigglypuff",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3e/039Jigglypuff.png/revision/latest/scale-to-width-down/200?cb=20140328193313",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3e/039Jigglypuff.png",
         "type1": "Normal",
         "type2": "Fairy",
         "baby": true,
@@ -355,7 +355,7 @@
     {
         "id": 40,
         "name": "Wigglytuff",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/92/040Wigglytuff.png/revision/latest/scale-to-width-down/200?cb=20140328193334",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/92/040Wigglytuff.png",
         "type1": "Normal",
         "type2": "Fairy",
         "description": "Wigglytuff's body is very flexible. By inhaling deeply, it can inflate itself seemingly without end. Once inflated, Wigglytuff bounces along lightly with the wind."
@@ -363,7 +363,7 @@
     {
         "id": 41,
         "name": "Zubat",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/da/041Zubat.png/revision/latest/scale-to-width-down/200?cb=20140328194041",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/da/041Zubat.png",
         "type1": "Poison",
         "type2": "Flying",
         "baby": true,
@@ -374,7 +374,7 @@
     {
         "id": 42,
         "name": "Golbat",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/0c/042Golbat.png/revision/latest/scale-to-width-down/200?cb=20140328194043",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/0c/042Golbat.png",
         "type1": "Poison",
         "type2": "Flying",
         "description": "Golbat loves to drink blood, it can drink so much that it becomes unable fly. Unlike Zubat, Golbat have eyes, feet, and a large gaping mouth."
@@ -382,7 +382,7 @@
     {
         "id": 43,
         "name": "Oddish",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/43/043Oddish.png/revision/latest/scale-to-width-down/200?cb=20140328194044",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/43/043Oddish.png",
         "type1": "Grass",
         "type2": "Poison",
         "baby": true,
@@ -393,7 +393,7 @@
     {
         "id": 44,
         "name": "Gloom",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/2a/044Gloom.png/revision/latest/scale-to-width-down/200?cb=20140328194044",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/2a/044Gloom.png",
         "type1": "Grass",
         "type2": "Poison",
         "evolution_id": 45,
@@ -403,7 +403,7 @@
     {
         "id": 45,
         "name": "Vileplume",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/6a/045Vileplume.png/revision/latest/scale-to-width-down/200?cb=20140328194044",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/6a/045Vileplume.png",
         "type1": "Grass",
         "type2": "Poison",
         "description": "Vileplume has the world's largest petals. They are used to attract prey that are then doused with toxic spores. These toxic spores will leave you sick for days. Vileplume is based on the rafflesia, the world's smelliest flower."
@@ -411,7 +411,7 @@
     {
         "id": 46,
         "name": "Paras",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/d4/046Paras.png/revision/latest/scale-to-width-down/200?cb=20140328194045",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/d4/046Paras.png",
         "type1": "Bug",
         "type2": "Grass",
         "baby": true,
@@ -422,7 +422,7 @@
     {
         "id": 47,
         "name": "Parasect",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/80/047Parasect.png/revision/latest/scale-to-width-down/200?cb=20140328194045",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/80/047Parasect.png",
         "type1": "Bug",
         "type2": "Grass",
         "description": "Parasects are the endpoint of a Paras' life stage, where the mushroom has fully engulfed its body, completely taking it over. It requires more energy from trees due to its larger size. It was originally called \"Fungus\" in early development."
@@ -430,7 +430,7 @@
     {
         "id": 48,
         "name": "Venonat",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/ad/048Venonat.png/revision/latest/scale-to-width-down/200?cb=20140328194045",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/ad/048Venonat.png",
         "type1": "Bug",
         "type2": "Poison",
         "baby": true,
@@ -441,7 +441,7 @@
     {
         "id": 49,
         "name": "Venomoth",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/d3/049Venomoth.png/revision/latest/scale-to-width-down/200?cb=20140328194046",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/d3/049Venomoth.png",
         "type1": "Bug",
         "type2": "Poison",
         "description": "Venomoths are large violet/fuchsia-coloured moths. Its wings shed poisonous scales. These powdery scales are hard to remove from skin and contain poison that leaks out on contact."
@@ -449,7 +449,7 @@
     {
         "id": 50,
         "name": "Diglett",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/31/050Diglett.png/revision/latest/scale-to-width-down/200?cb=20221106143502",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/31/050Diglett.png",
         "type1": "Ground",
         "baby": true,
         "evolution_id": 51,
@@ -459,14 +459,14 @@
     {
         "id": 51,
         "name": "Dugtrio",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/e/e5/051Dugtrio.png/revision/latest/scale-to-width-down/200?cb=20140328195852",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/e/e5/051Dugtrio.png",
         "type1": "Ground",
         "description": "Dugtrio is a tripled Diglett. Like Diglett, Dugtrio has an Alolan form that is a Ground/Steel type. Like Diglett, no one has ever seen the full body of a Dugtrio. Occasionally, they will fight over which head gets to eat first."
     },
     {
         "id": 52,
         "name": "Meowth",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/d6/052Meowth.png/revision/latest/scale-to-width-down/200?cb=20140328195855",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/d6/052Meowth.png",
         "type1": "Normal",
         "baby": true,
         "evolution_id": 53,
@@ -476,14 +476,14 @@
     {
         "id": 53,
         "name": "Persian",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/1/13/053Persian.png/revision/latest/scale-to-width-down/200?cb=20140328195856",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/1/13/053Persian.png",
         "type1": "Normal",
         "description": "Persian will sneak up behind a foe silently by retracting its claws. It will then pounce and rip them to shreds. Persian's Alolan form is a Dark type and its Galarian counterpart Perrserker is a Steel type. While Meowth has a gold coin on its forehead, Persian has a red jewel. A Persian is owned by Team Rocket's leader, Giovanni in the Pokémon anime series."
     },
     {
         "id": 54,
         "name": "Psyduck",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/53/054Psyduck.png/revision/latest/scale-to-width-down/200?cb=20140328195856",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/53/054Psyduck.png",
         "type1": "Water",
         "baby": true,
         "evolution_id": 55,
@@ -493,14 +493,14 @@
     {
         "id": 55,
         "name": "Golduck",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/fe/055Golduck.png/revision/latest/scale-to-width-down/200?cb=20140328195856",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/fe/055Golduck.png",
         "type1": "Water",
         "description": "It was almost hunted to extinction by hunters wanting the precious jewel on its forehead. Its capabilities are superior compared to Psyduck. It swims effortlessly, even in rough, stormy seas. It is known to rescue people from wrecked ships."
     },
     {
         "id": 56,
         "name": "Mankey",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/41/056Mankey.png/revision/latest/scale-to-width-down/200?cb=20140328195857",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/41/056Mankey.png",
         "type1": "Fighting",
         "baby": true,
         "evolution_id": 57,
@@ -510,14 +510,14 @@
     {
         "id": 57,
         "name": "Primeape",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9a/057Primeape.png/revision/latest/scale-to-width-down/200?cb=20140328195857",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9a/057Primeape.png",
         "type1": "Fighting",
         "description": "Anything can make a Primeape's blood boil. It is not as smart when it is really mad, though. However, sometimes it can get so mad that it can die, because it couldn't handle its anger. Primeape is based on the baboon."
     },
     {
         "id": 58,
         "name": "Growlithe",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3d/058Growlithe.png/revision/latest/scale-to-width-down/200?cb=20140328195857",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3d/058Growlithe.png",
         "type1": "Fire",
         "baby": true,
         "evolution_id": 59,
@@ -527,14 +527,14 @@
     {
         "id": 59,
         "name": "Arcanine",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/b8/059Arcanine.png/revision/latest/scale-to-width-down/200?cb=20140328195858",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/b8/059Arcanine.png",
         "type1": "Fire",
         "description": "Arcanine is a fan-favourite Pokémon and among the strongest non-legendary Pokémon and has been described as having \"the mane of a lion ... the stripes of a tiger [and] the speed of a panther\"."
     },
     {
         "id": 60,
         "name": "Poliwag",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/49/060Poliwag.png/revision/latest/scale-to-width-down/200?cb=20140328195858",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/49/060Poliwag.png",
         "type1": "Water",
         "baby": true,
         "evolution_id": 61,
@@ -544,7 +544,7 @@
     {
         "id": 61,
         "name": "Poliwhirl",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a9/061Poliwhirl.png/revision/latest/scale-to-width-down/200?cb=20140328202817",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a9/061Poliwhirl.png",
         "type1": "Water",
         "evolution_id": 62,
         "evolution_lvl": 50,
@@ -553,7 +553,7 @@
     {
         "id": 62,
         "name": "Poliwrath",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/2d/062Poliwrath.png/revision/latest/scale-to-width-down/200?cb=20140328202819",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/2d/062Poliwrath.png",
         "type1": "Water",
         "type2": "Fighting",
         "description": "It is capable of swimming the length of the Pacific Ocean tirelessly. It evolves from Poliwhirl after using a Water Stone. The swirl on its belly is reversed from its pre-evolutions."
@@ -561,7 +561,7 @@
     {
         "id": 63,
         "name": "Abra",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/62/063Abra.png/revision/latest/scale-to-width-down/200?cb=20140328202819",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/62/063Abra.png",
         "type1": "Psychic",
         "baby": true,
         "evolution_id": 64,
@@ -571,7 +571,7 @@
     {
         "id": 64,
         "name": "Kadabra",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/97/064Kadabra.png/revision/latest/scale-to-width-down/200?cb=20140328202820",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/97/064Kadabra.png",
         "type1": "Psychic",
         "evolution_id": 65,
         "evolution_lvl": 32,
@@ -580,14 +580,14 @@
     {
         "id": 65,
         "name": "Alakazam",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cc/065Alakazam.png/revision/latest/scale-to-width-down/200?cb=20140328202820",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cc/065Alakazam.png",
         "type1": "Psychic",
         "description": "Due to its brain drastically growing, causing its head to be too heavy, it actually uses its psychic power to hold its head up. Its 5000 IQ makes it a very intelligent Pokémon. It can affect nearby technology using its brainwaves. Kadabra and Alakazam were the direct counters to the Gastly line of Ghost-type Pokémon since they were dual types with Poison-type, hence weak to psychic-type moves. Throughout the series, the Abra and Gastly lines were considered rivals."
     },
     {
         "id": 66,
         "name": "Machop",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/85/066Machop.png/revision/latest/scale-to-width-down/200?cb=20140328203356",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/85/066Machop.png",
         "type1": "Fighting",
         "baby": true,
         "evolution_id": 67,
@@ -597,7 +597,7 @@
     {
         "id": 67,
         "name": "Machoke",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/8e/067Machoke.png/revision/latest/scale-to-width-down/200?cb=20140328203358",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/8e/067Machoke.png",
         "type1": "Fighting",
         "evolution_id": 68,
         "evolution_lvl": 56,
@@ -606,14 +606,14 @@
     {
         "id": 68,
         "name": "Machamp",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/8f/068Machamp.png/revision/latest/scale-to-width-down/200?cb=20140328203359",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/8f/068Machamp.png",
         "type1": "Fighting",
         "description": "Machamp has four arms. It can throw around 1000 punches in two seconds and move mountains with one arm. It evolves from Machoke after being traded. Its Gigantamax form has glowing, orange eyes and hands and a bigger body."
     },
     {
         "id": 69,
         "name": "Bellsprout",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a2/069Bellsprout.png/revision/latest/scale-to-width-down/200?cb=20140328203359",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a2/069Bellsprout.png",
         "type1": "Grass",
         "type2": "Poison",
         "baby": true,
@@ -624,7 +624,7 @@
     {
         "id": 70,
         "name": "Weepinbell",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9f/070Weepinbell.png/revision/latest/scale-to-width-down/200?cb=20140328203359",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9f/070Weepinbell.png",
         "type1": "Grass",
         "type2": "Poison",
         "evolution_id": 71,
@@ -634,7 +634,7 @@
     {
         "id": 71,
         "name": "Victreebel",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/be/071Victreebel.png/revision/latest/scale-to-width-down/200?cb=20140328203937",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/be/071Victreebel.png",
         "type1": "Grass",
         "type2": "Poison",
         "description": "It was the last Generation I Pokémon to be created. All of Bellsprout's evolutions are based on various fly-catcher plants, with Victreebel the closest-looking one. Team Rocket's James has a Victreebel that has a habit of chewing on him."
@@ -642,7 +642,7 @@
     {
         "id": 72,
         "name": "Tentacool",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/4e/072Tentacool.png/revision/latest/scale-to-width-down/200?cb=20140328203939",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/4e/072Tentacool.png",
         "type1": "Water",
         "type2": "Poison",
         "baby": true,
@@ -653,7 +653,7 @@
     {
         "id": 73,
         "name": "Tentacruel",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f6/073Tentacruel.png/revision/latest/scale-to-width-down/200?cb=20140328203940",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f6/073Tentacruel.png",
         "type1": "Water",
         "type2": "Poison",
         "description": "Tentacruel is a large, multi-tentacled jellyfish Pokémon that has two claws or beaks and two large, red jewels on its head."
@@ -661,7 +661,7 @@
     {
         "id": 74,
         "name": "Geodude",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/98/074Geodude.png/revision/latest/scale-to-width-down/200?cb=20140328203940",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/98/074Geodude.png",
         "type1": "Rock",
         "type2": "Ground",
         "baby": true,
@@ -672,7 +672,7 @@
     {
         "id": 75,
         "name": "Graveler",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/75/075Graveler.png/revision/latest/scale-to-width-down/200?cb=20140328203940",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/75/075Graveler.png",
         "type1": "Rock",
         "type2": "Ground",
         "evolution_id": 76,
@@ -682,7 +682,7 @@
     {
         "id": 76,
         "name": "Golem",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f2/076Golem.png/revision/latest/scale-to-width-down/200?cb=20140328203941",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f2/076Golem.png",
         "type1": "Rock",
         "type2": "Ground",
         "description": "Golem is known for rolling down from mountains. To prevent them from rolling into the homes of people downhill, grooves have been dug into the sides of mountains to serve as guideways for diverting this Pokémon's course. Golem has an Alolan form that is a Rock/Electric type. It appears as a large boulder that has a head, arms, and legs. It can roll up into a perfectly round rock. Its Alolan form is magnetic and has a rock cannon on its shoulders."
@@ -690,7 +690,7 @@
     {
         "id": 77,
         "name": "Ponyta",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3b/077Ponyta.png/revision/latest/scale-to-width-down/200?cb=20140328203941",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3b/077Ponyta.png",
         "type1": "Fire",
         "baby": true,
         "evolution_id": 78,
@@ -700,14 +700,14 @@
     {
         "id": 78,
         "name": "Rapidash",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3f/078Rapidash.png/revision/latest/scale-to-width-down/200?cb=20140328203941",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3f/078Rapidash.png",
         "type1": "Fire",
         "description": "As a popular Pokémon, Rapidash is considered \"universally appealing\" to fans of cute and cool Pokémon alike. Both Ponyta and Rapidash can enable their body's flames to be harmful or harmless as seen in the anime. Its Galarian form is a Psychic/Fairy type, and is pinkish purple in color instead."
     },
     {
         "id": 79,
         "name": "Slowpoke",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/70/079Slowpoke.png/revision/latest/scale-to-width-down/200?cb=20140328203941",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/70/079Slowpoke.png",
         "type1": "Water",
         "type2": "Psychic",
         "baby": true,
@@ -718,7 +718,7 @@
     {
         "id": 80,
         "name": "Slowbro",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/80/080Slowbro.png/revision/latest/scale-to-width-down/200?cb=20140328203942",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/80/080Slowbro.png",
         "type1": "Water",
         "type2": "Psychic",
         "description": "With Shellder's poison going through its body, it makes it even more spaced out than it already was. Its Galarian form is a Poison/Psychic type. The appearance of the Shellder is different than how they normally look. In the Gold and Silver demo, the Shellder was its own Pokemon, named Turban, before it was scrapped."
@@ -726,7 +726,7 @@
     {
         "id": 81,
         "name": "Magnemite",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/6c/081Magnemite.png/revision/latest/scale-to-width-down/200?cb=20140328204314",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/6c/081Magnemite.png",
         "type1": "Electric",
         "type2": "Steel",
         "baby": true,
@@ -737,7 +737,7 @@
     {
         "id": 82,
         "name": "Magneton",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/72/082Magneton.png/revision/latest/scale-to-width-down/200?cb=20140328204316",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/72/082Magneton.png",
         "type1": "Electric",
         "type2": "Steel",
         "description": "Having this Pokémon near mechanical devices is a bad idea. Oftentimes, Cites will warn people to hide their electronics because Magneton produces electromagnetic waves that can ruin devices. Magneton appears as three Magnemite attached together. It evolves into Magnezone while in range of a special magnetic field or a Thunder Stone in later games."
@@ -745,7 +745,7 @@
     {
         "id": 83,
         "name": "Farfetch'd",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f8/083Farfetch%27d.png/revision/latest/scale-to-width-down/200?cb=20140328204317",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f8/083Farfetch%27d.png",
         "type1": "Normal",
         "type2": "Flying",
         "baby": true,
@@ -754,7 +754,7 @@
     {
         "id": 84,
         "name": "Doduo",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/54/084Doduo.png/revision/latest/scale-to-width-down/200?cb=20140328204317",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/54/084Doduo.png",
         "type1": "Normal",
         "type2": "Flying",
         "baby": true,
@@ -765,7 +765,7 @@
     {
         "id": 85,
         "name": "Dodrio",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/93/085Dodrio.png/revision/latest/scale-to-width-down/200?cb=20140328204317",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/93/085Dodrio.png",
         "type1": "Normal",
         "type2": "Flying",
         "description": "The three heads express joy, sorrow, and anger as they plan strategy together. When it sleeps, one head remains awake. Dodrio are extremely fast runners. The three heads have colored feathers, which also appear as tail-feathers."
@@ -773,7 +773,7 @@
     {
         "id": 86,
         "name": "Seel",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/1/1f/086Seel.png/revision/latest/scale-to-width-down/200?cb=20140328204317",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/1/1f/086Seel.png",
         "type1": "Water",
         "baby": true,
         "evolution_id": 87,
@@ -783,7 +783,7 @@
     {
         "id": 87,
         "name": "Dewgong",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/c7/087Dewgong.png/revision/latest/scale-to-width-down/200?cb=20140328204318",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/c7/087Dewgong.png",
         "type1": "Water",
         "type2": "Ice",
         "description": "A fisherman once saw a Dewgong on an iceberg and thought it was a mermaid. Its design is based on the real-life dugong."
@@ -791,7 +791,7 @@
     {
         "id": 88,
         "name": "Grimer",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a0/088Grimer.png/revision/latest/scale-to-width-down/200?cb=20140328204318",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a0/088Grimer.png",
         "type1": "Poison",
         "baby": true,
         "evolution_id": 89,
@@ -801,14 +801,14 @@
     {
         "id": 89,
         "name": "Muk",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/7c/089Muk.png/revision/latest/scale-to-width-down/200?cb=20140328204318",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/7c/089Muk.png",
         "type1": "Poison",
         "description": "Muk's English name comes from the corruption of the word \"muck\". It is a sludge Pokémon that can also be based on Dorotabō, a one-eyed, three-fingered yōkai that rises from the mud of neglected, overgrown rice fields. Its body smells so awful, it can cause fainting. Through degeneration, it had lost its sense of smell. Muk has an Alolan form that is a Poison/Dark type. Like Grimer, Alolan Muk has multiple colours, and now razor-sharp poisonous crystal-esque teeth."
     },
     {
         "id": 90,
         "name": "Shellder",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/40/090Shellder.png/revision/latest/scale-to-width-down/200?cb=20140328204319",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/40/090Shellder.png",
         "type1": "Water",
         "baby": true,
         "evolution_id": 91,
@@ -818,7 +818,7 @@
     {
         "id": 91,
         "name": "Cloyster",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/1/1d/091Cloyster.png/revision/latest/scale-to-width-down/200?cb=20140328204631",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/1/1d/091Cloyster.png",
         "type1": "Water",
         "type2": "Ice",
         "description": "It swims by pushing water out through its valves. It is similar to Shellder, but rotated 180 degrees. Its body looks like a black ball inside a clam's shell. It has no tongue though."
@@ -826,7 +826,7 @@
     {
         "id": 92,
         "name": "Gastly",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/ca/092Gastly.png/revision/latest/scale-to-width-down/200?cb=20140328204633",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/ca/092Gastly.png",
         "type1": "Ghost",
         "type2": "Poison",
         "baby": true,
@@ -837,7 +837,7 @@
     {
         "id": 93,
         "name": "Haunter",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/62/093Haunter.png/revision/latest/scale-to-width-down/200?cb=20140328204633",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/62/093Haunter.png",
         "type1": "Ghost",
         "type2": "Poison",
         "evolution_id": 94,
@@ -847,7 +847,7 @@
     {
         "id": 94,
         "name": "Gengar",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/c6/094Gengar.png/revision/latest/scale-to-width-down/200?cb=20140328204634",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/c6/094Gengar.png",
         "type1": "Ghost",
         "type2": "Poison",
         "description": "Gengar is a ghost-type Pokémon said to be the ghost of a human. The Pokédex states that it \"pretend[s] to be your shadow\", which references a doppelgänger, which the name \"Gengar\" is a reference to. Initially created by Satoshi Tajiri and Ken Sugimori, it has become one of the most popular Pokémon, placing tenth on the Google Pokémon of the Year 2020 poll.Kotaku's Zack Zwiezen said Gengar was \"one of [their] favorite gen 1 designs\", calling it a \"great design [because] it’s simple, yet not boring or generic\". Gengar has appeared in many Pokémon spin-offs or crossovers, including Pokkén Tournament and Pokémon Unite."
@@ -855,7 +855,7 @@
     {
         "id": 95,
         "name": "Onix",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9a/095Onix.png/revision/latest/scale-to-width-down/200?cb=20140328204634",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9a/095Onix.png",
         "type1": "Rock",
         "type2": "Ground",
         "baby": true,
@@ -864,7 +864,7 @@
     {
         "id": 96,
         "name": "Drowzee",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3e/096Drowzee.png/revision/latest/scale-to-width-down/200?cb=20140328204634",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3e/096Drowzee.png",
         "type1": "Psychic",
         "baby": true,
         "evolution_id": 97,
@@ -874,14 +874,14 @@
     {
         "id": 97,
         "name": "Hypno",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/0a/097Hypno.png/revision/latest/scale-to-width-down/200?cb=20140328204635",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/0a/097Hypno.png",
         "type1": "Psychic",
         "description": "Hypno's design is based on the dream-eating tapir, Baku and a hypnotist. It polishes its pendulum to more effectively put people to sleep. Try not to look at it. There is a myth within the franchise that Hypno preys on human children. This has led to Hypno becoming the subject of creepypastas. Hypno is purely yellow with a white fluffy collar mane."
     },
     {
         "id": 98,
         "name": "Krabby",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a7/098Krabby.png/revision/latest/scale-to-width-down/200?cb=20140328204635",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a7/098Krabby.png",
         "type1": "Water",
         "baby": true,
         "evolution_id": 99,
@@ -891,14 +891,14 @@
     {
         "id": 99,
         "name": "Kingler",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/71/099Kingler.png/revision/latest/scale-to-width-down/200?cb=20140328204636",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/71/099Kingler.png",
         "type1": "Water",
         "description": "Because its pincer is so heavy, it has a hard time fighting. When it does hit, it is very powerful. Only Kingler can use Crabhammer, due to its large claw. It shares a similarity to real life fiddler crabs. Its Gigantamax form is bigger with a beard made of bubbles. It also uses acid bubbles to dissolve its prey or foes."
     },
     {
         "id": 100,
         "name": "Voltorb",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/da/100Voltorb.png/revision/latest/scale-to-width-down/200?cb=20140328204636",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/da/100Voltorb.png",
         "type1": "Electric",
         "baby": true,
         "evolution_id": 101,
@@ -908,14 +908,14 @@
     {
         "id": 101,
         "name": "Electrode",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/84/101Electrode.png/revision/latest/scale-to-width-down/200?cb=20140328205301",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/84/101Electrode.png",
         "type1": "Electric",
         "description": "Electrode is a round Pokémon resembling an upside-down Poké Ball with a mouth and eyes. Its top half is white, while its lower half is red. For this reason, many Trainers try to pick it up, mistaking it for an item. The Pocket Monsters Carddass Trading Cards depict Electrode as hollow. Many know it by the nickname \"Bomb Ball\", due to its unpredictable and explosive nature."
     },
     {
         "id": 102,
         "name": "Exeggcute",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/af/102Exeggcute.png/revision/latest/scale-to-width-down/200?cb=20140328205303",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/af/102Exeggcute.png",
         "type1": "Grass",
         "type2": "Psychic",
         "baby": true,
@@ -926,7 +926,7 @@
     {
         "id": 103,
         "name": "Exeggutor",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/24/103Exeggutor.png/revision/latest/scale-to-width-down/200?cb=20140328205304",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/24/103Exeggutor.png",
         "type1": "Grass",
         "type2": "Psychic",
         "description": "It is a coconut tree-esque Pokémon based on the Jinmenju and the favorite Pokémon of Tsunekazu Ishihara, president and CEO of The Pokémon Company, having used it throughout the debugging phase of Pokémon Red and Green. Its 3 heads can think differently, often making it unable to move. Exeggutor has an Alolan form that is a Grass/Dragon type and has a really long trunk-esque neck. It is said that if an Exeggutor's head falls off, it merges with others to form a new Exeggcute."
@@ -934,7 +934,7 @@
     {
         "id": 104,
         "name": "Cubone",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/2a/104Cubone.png/revision/latest/scale-to-width-down/200?cb=20140328205304",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/2a/104Cubone.png",
         "type1": "Ground",
         "baby": true,
         "evolution_id": 105,
@@ -944,14 +944,14 @@
     {
         "id": 105,
         "name": "Marowak",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/98/105Marowak.png/revision/latest/scale-to-width-down/200?cb=20140328205304",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/98/105Marowak.png",
         "type1": "Ground",
         "description": "Marowak appears as an older Cubone with the skull becoming the head. It wields a bone that it uses as a boomerang. This is the only Pokémon that can use the Bonemurang attack. It also has an Alolan form that is a Ghost/Fire type that uses ts mothers spirit as a flame at the end of its bones.."
     },
     {
         "id": 106,
         "name": "Hitmonlee",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/32/106Hitmonlee.png/revision/latest/scale-to-width-down/200?cb=20140328205305",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/32/106Hitmonlee.png",
         "type1": "Fighting",
         "baby": true,
         "description": "Hitmonlee's design is based on Headless men, from Greco-Roman mythology. It may also be based on Kabandha, a demon from Hindu mythology. Its English name is derived from actor and martial artist Bruce Lee. It will rub its legs down after fighting to overcome fatigue. It can also extend its legs to deliver power kicks. Hitmonlee and Hitmonchan didn't have a distinct evolutionary line until Tyrogue and Hitmontop were conceived. Hitmonlee evolves from Tyrogue if it has higher attack stats."
@@ -959,7 +959,7 @@
     {
         "id": 107,
         "name": "Hitmonchan",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a3/107Hitmonchan.png/revision/latest/scale-to-width-down/200?cb=20141209050732",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/a3/107Hitmonchan.png",
         "type1": "Fighting",
         "baby": true,
         "description": "Its English name is derived from actor and martial artist Jackie Chan. It delivers powerful punches in a fight. However, it can only fight for three minutes without resting. It appears as a boxer that has boxing gloves for hands. It evolves from Tyrogue if it has higher defence stats."
@@ -967,7 +967,7 @@
     {
         "id": 108,
         "name": "Lickitung",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/00/108Lickitung.png/revision/latest/scale-to-width-down/200?cb=20140328205307",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/00/108Lickitung.png",
         "type1": "Normal",
         "baby": true,
         "description": "It can swiftly pick up a small bean with its tongue better than its hands or feet. If it licks you and you won't clean it off, it will break out into a rash. Lickitung appears as a pink lizard like Pokémon with a long tongue that it uses as a weapon. It evolves into Lickilicky while knowing Rollout."
@@ -975,7 +975,7 @@
     {
         "id": 109,
         "name": "Koffing",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/1/17/109Koffing.png/revision/latest/scale-to-width-down/200?cb=20140328205307",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/1/17/109Koffing.png",
         "type1": "Poison",
         "baby": true,
         "evolution_id": 110,
@@ -985,14 +985,14 @@
     {
         "id": 110,
         "name": "Weezing",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/42/110Weezing.png/revision/latest/scale-to-width-down/200?cb=20140328205307",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/42/110Weezing.png",
         "type1": "Poison",
         "description": "Weezing belonged to James of Team Rocket in the Kanto and Johto series of the Pokémon anime and for a small portion of the Advanced Generation series. It likes to raid trash can for food. To make its poison more toxic, it pushes its gas through its two heads. Its Galarian form is a Poison/Fairy type. It appears as three different sized Koffing rocks merged, with a face on both of the bigger ones."
     },
     {
         "id": 111,
         "name": "Rhyhorn",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9b/111Rhyhorn.png/revision/latest/scale-to-width-down/200?cb=20140328205756",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/9b/111Rhyhorn.png",
         "type1": "Ground",
         "type2": "Rock",
         "baby": true,
@@ -1003,7 +1003,7 @@
     {
         "id": 112,
         "name": "Rhydon",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/47/112Rhydon.png/revision/latest/scale-to-width-down/200?cb=20140328205759",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/47/112Rhydon.png",
         "type1": "Ground",
         "type2": "Rock",
         "description": "Rhydon was the first Pokémon created by Game Freak. Its hide is very tough. Unlike Rhyhorn, it stands bipedal. It eventually gained an evolution, Rhyperior, after being traded with a Protector."
@@ -1011,7 +1011,7 @@
     {
         "id": 113,
         "name": "Chansey",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cd/113Chansey.png/revision/latest/scale-to-width-down/200?cb=20140328205759",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cd/113Chansey.png",
         "type1": "Normal",
         "baby": true,
         "description": "In generation II, Blissey (#242) was added, and in generation IV, Happiny (#440) was added, however Chansey was initially a stand-alone Pokémon. It appears as a pink oblong shaped creature with stubby arms and feet. It carries eggs in its pouch and is typically used by Pokémon Centres for the egg's healing properties."
@@ -1019,7 +1019,7 @@
     {
         "id": 114,
         "name": "Tangela",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3e/114Tangela.png/revision/latest/scale-to-width-down/200?cb=20140328205759",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/3e/114Tangela.png",
         "type1": "Grass",
         "baby": true,
         "description": "Blue plant vines cloak the Pokémon's identity in a tangled mass. It entangles anything that gets close. It also resembles the severed head of the gorgon, Medusa. It gained an evolution, Tangrowth, in Generation IV and was going to have a pre-evolution in Generation II."
@@ -1027,7 +1027,7 @@
     {
         "id": 115,
         "name": "Kangaskhan",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/4e/115Kangaskhan.png/revision/latest/scale-to-width-down/200?cb=20140328205800",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/4e/115Kangaskhan.png",
         "type1": "Normal",
         "baby": true,
         "description": "Kangaskhan in Pokémon Go is exclusively available to Australia. It was the second Pokémon created by Game Freak after Rhydon. It carries a baby Kangaskhan in its pouch until it grows up. In the anime series, they live in groups."
@@ -1035,7 +1035,7 @@
     {
         "id": 116,
         "name": "Horsea",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/5a/116Horsea.png/revision/latest/scale-to-width-down/200?cb=20140328205800",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/5/5a/116Horsea.png",
         "type1": "Water",
         "baby": true,
         "evolution_id": 117,
@@ -1045,14 +1045,14 @@
     {
         "id": 117,
         "name": "Seadra",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/26/117Seadra.png/revision/latest/scale-to-width-down/200?cb=20140328205801",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/26/117Seadra.png",
         "type1": "Water",
         "description": "Seadra is a light blue, piscine Pokémon that is similar to a seahorse with a cream-colored belly covered in rough scales. It has a long, tubular mouth, narrow, black eyes, a fin-like ridge above each eye, and spiny pectoral fins. It also has a large, coiled tail. It has a pair of dorsal fins with sharp, cream-colored tips that exude venom. Seadra's venom is toxic enough to induce numbness and even fainting in humans, but it is still prized among practitioners of traditional medicine."
     },
     {
         "id": 118,
         "name": "Goldeen",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/7b/118Goldeen.png/revision/latest/scale-to-width-down/200?cb=20140328205801",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/7b/118Goldeen.png",
         "type1": "Water",
         "baby": true,
         "evolution_id": 119,
@@ -1062,14 +1062,14 @@
     {
         "id": 119,
         "name": "Seaking",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/6a/119Seaking.png/revision/latest/scale-to-width-down/200?cb=20140328205801",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/6a/119Seaking.png",
         "type1": "Water",
         "description": "Seaking is a primarily orange-and-white, piscine Pokémon. It has round, dark eyes, prominent pink lips, two small fangs, and a cream-colored horn in the center of its forehead. A female will have a smaller horn than a male. Most of its body is orange with a patch of white under its mouth and along its underside. There are several black markings on its body: two thick lines under each eye, a large wavy patch on its back, and several speckles near its tail. It has billowing pectoral fins and a pair of tail fins shaped like butterfly wings, all of which are white speckled with black. However, its dorsal fin is pure white and rigid."
     },
     {
         "id": 120,
         "name": "Staryu",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/4f/120Staryu.png/revision/latest/scale-to-width-down/200?cb=20140328205802",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/4f/120Staryu.png",
         "type1": "Water",
         "baby": true,
         "evolution_id": 121,
@@ -1079,7 +1079,7 @@
     {
         "id": 121,
         "name": "Starmie",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cd/121Starmie.png/revision/latest/scale-to-width-down/200?cb=20140328210340",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cd/121Starmie.png",
         "type1": "Water",
         "type2": "Psychic",
         "description": "Starmie, known as the Mysterious Pokémon, resembles a sea star. Starmie appears to have a second star growing on its back, which is semi-attached, being able to spin 360°. Starmie has a red jewel core, which resembles a cut precious stone and seems to shine with the seven colors of the rainbow when looked at from different angles, but usually shows up red more than any other color. It can also emit electrical waves from the core that are powerful enough to reach the furthest parts of the universe. The appearance of Starmie is two purple starfish connected back to back with only one having the gemstone on it."
@@ -1087,7 +1087,7 @@
     {
         "id": 122,
         "name": "Mr. Mime",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/e/ec/122Mr._Mime.png/revision/latest/scale-to-width-down/200?cb=20140328210350",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/e/ec/122Mr._Mime.png",
         "type1": "Psychic",
         "type2": "Fairy",
         "baby": true,
@@ -1096,7 +1096,7 @@
     {
         "id": 123,
         "name": "Scyther",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/ba/123Scyther.png/revision/latest/scale-to-width-down/200?cb=20140328210350",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/ba/123Scyther.png",
         "type1": "Bug",
         "type2": "Flying",
         "baby": true,
@@ -1105,7 +1105,7 @@
     {
         "id": 124,
         "name": "Jynx",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/7c/124Jynx.png/revision/latest/scale-to-width-down/200?cb=20140328210350",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/7c/124Jynx.png",
         "type1": "Ice",
         "type2": "Psychic",
         "baby": true,
@@ -1114,7 +1114,7 @@
     {
         "id": 125,
         "name": "Electabuzz",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/de/125Electabuzz.png/revision/latest/scale-to-width-down/200?cb=20140328210351",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/de/125Electabuzz.png",
         "type1": "Electric",
         "baby": true,
         "description": "It gathers near power plants to feast on electricity. In the dark, it glows a whitish-blue colour. In Generation II it gained a pre-evolution, Elekid, and in Generation IV it gained an evolution, Electivire."
@@ -1122,7 +1122,7 @@
     {
         "id": 126,
         "name": "Magmar",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/8c/126Magmar.png/revision/latest/scale-to-width-down/200?cb=20140328210351",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/8c/126Magmar.png",
         "type1": "Fire",
         "baby": true,
         "description": "While Magmar was voted the eighth best fire-type Pokémon by the Official Nintendo Magazine readers, GamesRadar had criticised its design multiple times, noting that its forehead resembles a butt. Magmar evolves from Magby and into Magmortar. It is famed for being the first Pokémon to use Fire Punch, and is one of gym leader Blaine's best Pokémon. Ash Ketchum, being the genius that he is, tried to fight this Fire-type with his own Fire-type, Charizard."
@@ -1130,7 +1130,7 @@
     {
         "id": 127,
         "name": "Pinsir",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/71/127Pinsir.png/revision/latest/scale-to-width-down/200?cb=20140328210351",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/71/127Pinsir.png",
         "type1": "Bug",
         "baby": true,
         "description": "It likes to throw things with its massive horns. It can throw things two times from its weight. It was originally supposed to have an evolution called \"Plux\" in Generation II. Some speculated this unused design was reworked into Heracross. Pinsir appears as a tan-brown bug, similar in a appearance to an earwig with its pinchers on its head, and a vertical slit like mouth. Its Mega Evolution has wings."
@@ -1138,7 +1138,7 @@
     {
         "id": 128,
         "name": "Tauros",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/b8/128Tauros.png/revision/latest/scale-to-width-down/200?cb=20140328210352",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/b8/128Tauros.png",
         "type1": "Normal",
         "baby": true,
         "description": "Tauros, as its name implies, is a bull Pokémon that typically roams around grasslands in herds. Farmers tend to keep some on their lands. By whipping itself with its three tails, it will charge at anything."
@@ -1146,7 +1146,7 @@
     {
         "id": 129,
         "name": "Magikarp",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/02/129Magikarp.png/revision/latest/scale-to-width-down/200?cb=20140328210352",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/0/02/129Magikarp.png",
         "type1": "Water",
         "baby": true,
         "evolution_id": 130,
@@ -1156,7 +1156,7 @@
     {
         "id": 130,
         "name": "Gyarados",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/41/130Gyarados.png/revision/latest/scale-to-width-down/200?cb=20140328210352",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/41/130Gyarados.png",
         "type1": "Water",
         "type2": "Flying",
         "description": "In the beta versions for Pokémon Red and Blue, Gyarados was originally named \"Skullkraken\". Gyarados is inspired by the myth of a carp jumping over the Dragon Gate. Its vicious and raging attitude can decimate cities. It originally had a completely different, more lamprey-esque design in Red and Green's early development. It is known to be a hard Pokémon to raise by inexperienced trainers. The shiny version is red, and plays a role in the series. It appears normally as a long blue sea dragon, despite not being Dragon-type. It is also the only Flying type that doesn't fly; instead of this, it can hover."
@@ -1164,7 +1164,7 @@
     {
         "id": 131,
         "name": "Lapras",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/ab/131Lapras.png/revision/latest/scale-to-width-down/200?cb=20140328210730",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/a/ab/131Lapras.png",
         "type1": "Water",
         "type2": "Ice",
         "baby": true,
@@ -1173,7 +1173,7 @@
     {
         "id": 132,
         "name": "Ditto",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/36/132Ditto.png/revision/latest/scale-to-width-down/200?cb=20140328210732",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/3/36/132Ditto.png",
         "type1": "Normal",
         "baby": true,
         "description": "Ditto is capable of transforming into any Pokémon that it comes across. It was originally intended to have an evolution in Generation II called \"Animon\" which it would have evolved from a Metal Coat. Fan speculation is that Ditto and Mew are related as Mew can also use Transform, a move exclusive to Ditto. In the anime, Ditto belonging to Duplica had an issue with accurately mimicking appearances where its face always looked like Ditto's own. It appears as a pink blob or amoeba."
@@ -1181,7 +1181,7 @@
     {
         "id": 133,
         "name": "Eevee",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/e/e2/133Eevee.png/revision/latest/scale-to-width-down/200?cb=20140328210732",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/e/e2/133Eevee.png",
         "type1": "Normal",
         "baby": true,
         "evolution_id": 0,
@@ -1191,28 +1191,28 @@
     {
         "id": 134,
         "name": "Vaporeon",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/fd/134Vaporeon.png/revision/latest/scale-to-width-down/200?cb=20140328210733",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/fd/134Vaporeon.png",
         "type1": "Water",
         "description": "When it is in water, it will seem to invisibly melt in water because its molecules are very similar to water. It evolves from Eevee using a Water Stone."
     },
     {
         "id": 135,
         "name": "Jolteon",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/bb/135Jolteon.png/revision/latest/scale-to-width-down/200?cb=20140328210733",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/bb/135Jolteon.png",
         "type1": "Electric",
         "description": "Jolteon and Zapdos's romanized Japanese names are almost exactly the same as each other's, with a final 's' being the only difference. It evolves from Eevee using a Thunder Stone."
     },
     {
         "id": 136,
         "name": "Flareon",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/dd/136Flareon.png/revision/latest/scale-to-width-down/200?cb=20140328210733",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/d/dd/136Flareon.png",
         "type1": "Fire",
         "description": "Flareon shares its category name with Charmeleon, Charizard, Moltres, and Infernape, who are all known as the Flame Pokémon. It evolves from Eevee using a Fire Stone. It has an internal fire sac that lets its fire rise up to 1,600 degrees F."
     },
     {
         "id": 137,
         "name": "Porygon",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/6b/137Porygon.png/revision/latest/scale-to-width-down/200?cb=20140328210734",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/6/6b/137Porygon.png",
         "type1": "Normal",
         "baby": true,
         "description": "Porygon has become notorious for being featured in an episode of the anime that caused widespread epileptic seizures in Japanese viewers. It is popular with scientists, because, since it can go in to cyberspace at will, it looks for malicious malware in computers. It is one of many human-designed Pokémon. It gained an evolution in Generation II, Porygon2."
@@ -1220,7 +1220,7 @@
     {
         "id": 138,
         "name": "Omanyte",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/79/138Omanyte.png/revision/latest/scale-to-width-down/200?cb=20140328210734",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/79/138Omanyte.png",
         "type1": "Rock",
         "type2": "Water",
         "baby": true,
@@ -1231,7 +1231,7 @@
     {
         "id": 139,
         "name": "Omastar",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/43/139Omastar.png/revision/latest/scale-to-width-down/200?cb=20140328210735",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/43/139Omastar.png",
         "type1": "Rock",
         "type2": "Water",
         "description": "Omastar is very popular in the community and commonly referred to as \"Lord Helix\". This is a reference to Twitch Plays Pokémon, where the Pokémon was seen as a good-luck charm."
@@ -1239,7 +1239,7 @@
     {
         "id": 140,
         "name": "Kabuto",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f9/140Kabuto.png/revision/latest/scale-to-width-down/200?cb=20140328210735",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/f9/140Kabuto.png",
         "type1": "Rock",
         "type2": "Water",
         "baby": true,
@@ -1250,7 +1250,7 @@
     {
         "id": 141,
         "name": "Kabutops",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/29/141Kabutops.png/revision/latest/scale-to-width-down/200?cb=20140328211159",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/29/141Kabutops.png",
         "type1": "Rock",
         "type2": "Water",
         "description": "Its slender body makes it a very fast swimmer. Its appearance is similar to Scyther due to its blade-esque forearms."
@@ -1258,7 +1258,7 @@
     {
         "id": 142,
         "name": "Aerodactyl",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/e/e8/142Aerodactyl.png/revision/latest/scale-to-width-down/200?cb=20140328211201",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/e/e8/142Aerodactyl.png",
         "type1": "Rock",
         "type2": "Flying",
         "baby": true,
@@ -1267,7 +1267,7 @@
     {
         "id": 143,
         "name": "Snorlax",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/fb/143Snorlax.png/revision/latest/scale-to-width-down/200?cb=20200731165355",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/f/fb/143Snorlax.png",
         "type1": "Normal",
         "baby": true,
         "description": "It is carefree about everything, and it will allow children to play on its vast belly while it sleeps all day. After eating around 500 pounds of food, it goes flat to sleep for a while. Its appearance is a large, obese bear like Pokémon with blueish-green body and a white circle-shaped belly, white feet and face. In the games, it blocks the way forward, and can only be awoken with the PokeFlute. In Generation IV it gained a pre-evolution, Munchlax. Its Gigantamax form has a forest growing on it."
@@ -1275,7 +1275,7 @@
     {
         "id": 144,
         "name": "Articuno",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/4e/144Articuno.png/revision/latest/scale-to-width-down/200?cb=20140328211202",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/4/4e/144Articuno.png",
         "type1": "Ice",
         "type2": "Flying",
         "baby": true,
@@ -1284,7 +1284,7 @@
     {
         "id": 145,
         "name": "Zapdos",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/e/e3/145Zapdos.png/revision/latest/scale-to-width-down/200?cb=20140328211202",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/e/e3/145Zapdos.png",
         "type1": "Electric",
         "type2": "Flying",
         "baby": true,
@@ -1293,7 +1293,7 @@
     {
         "id": 146,
         "name": "Moltres",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/1/1b/146Moltres.png/revision/latest/scale-to-width-down/200?cb=20140328211203",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/1/1b/146Moltres.png",
         "type1": "Fire",
         "type2": "Flying",
         "baby": true,
@@ -1302,7 +1302,7 @@
     {
         "id": 147,
         "name": "Dratini",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cc/147Dratini.png/revision/latest/scale-to-width-down/200?cb=20140328211203",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/c/cc/147Dratini.png",
         "type1": "Dragon",
         "baby": true,
         "evolution_id": 148,
@@ -1312,7 +1312,7 @@
     {
         "id": 148,
         "name": "Dragonair",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/93/148Dragonair.png/revision/latest/scale-to-width-down/200?cb=20140328211203",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/9/93/148Dragonair.png",
         "type1": "Dragon",
         "evolution_id": 149,
         "evolution_lvl": 55,
@@ -1321,7 +1321,7 @@
     {
         "id": 149,
         "name": "Dragonite",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/8b/149Dragonite.png/revision/latest/scale-to-width-down/200?cb=20140328211204",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/8/8b/149Dragonite.png",
         "type1": "Dragon",
         "type2": "Flying",
         "description": "It is a large orange dragon Pokémon that flies at high-speed. It zooms off over seas to challenge other Pokémon. It has been reputed to guide saliors in storms to the nearest land. Unlike Charizard, it actually is a dragon in both appearance and type."
@@ -1329,7 +1329,7 @@
     {
         "id": 150,
         "name": "Mewtwo",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/78/150Mewtwo.png/revision/latest/scale-to-width-down/200?cb=20140328211204",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/7/78/150Mewtwo.png",
         "type1": "Psychic",
         "baby": true,
         "description": "It is one of the playable characters in Super Smash Bros. Melee, Super Smash Bros. for Nintendo 3DS / Wii U and Super Smash Bros. Ultimate. Its genes were spliced and restructured from Mew's. Its treatment from humans made it resentful and aggressive, before learning the error of its ways. It also appears in several movies."
@@ -1337,7 +1337,7 @@
     {
         "id": 151,
         "name": "Mew",
-        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/b1/151Mew.png/revision/latest/scale-to-width-down/200?cb=20200627085108",
+        "img_url": "https://static.wikia.nocookie.net/pokemon/images/b/b1/151Mew.png",
         "type1": "Psychic",
         "baby": true,
         "description": "It is only available through Nintendo events. It can turn invisible or transform into anything at will. It is considered one of the original pregenetor Pokémon, as all Pokémon descend from Mew. It clashes with Mewtwo during the Pokémon movies."

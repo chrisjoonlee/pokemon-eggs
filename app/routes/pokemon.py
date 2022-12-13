@@ -11,8 +11,12 @@ bp = Blueprint("pokemon", __name__, url_prefix="")
 @bp.route("/")
 @login_required
 def index():
-    users_pokemon = UserPokemon.query.join(User).filter(
-        UserPokemon.user_id == current_user.id).all()
+    users_pokemon = UserPokemon \
+        .query \
+        .join(User) \
+        .join(Pokemon) \
+        .filter(UserPokemon.user_id == current_user.id) \
+        .all()
 
     # users_pokemon = user_pokemon.filter(
     #     user_pokemon.user_id == current_user.id).all()
