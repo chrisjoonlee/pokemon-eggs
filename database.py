@@ -38,7 +38,7 @@ with app.app_context():
         if 'baby' in pokemon.keys():
             new_pokemon.baby = True
         else:
-            new_pokemonbaby = False
+            new_pokemon.baby = False
         if 'evolution_id' in pokemon.keys():
             new_pokemon.evolution_id = pokemon['evolution_id']
         if 'evolution_lvl' in pokemon.keys():

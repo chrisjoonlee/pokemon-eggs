@@ -9,7 +9,7 @@ db = SQLAlchemy()
 user_pokemon = db.Table(
     "user_pokemon",
     db.Model.metadata,
-    db.Column("user.id",
+    db.Column("user_id",
               db.ForeignKey("users.id"),
               primary_key=True,
               nullable=False),
