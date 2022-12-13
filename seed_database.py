@@ -1,3 +1,4 @@
+from app.settings import settings
 import json
 from app.models import User, Pokemon
 from dotenv import load_dotenv
@@ -5,16 +6,23 @@ load_dotenv()
 
 from app import app, db  # noqa
 
+
 with app.app_context():
     db.drop_all()
     db.create_all()
 
     # Seed users
-    ash = User(username="ash", name="Ash")
+    ash = User(username="ash",
+               name="Ash",
+               exp=settings['clicks_per_egg'])
     ash.password = "ash"
-    misty = User(username="misty", name="Misty")
+    misty = User(username="misty",
+                 name="Misty",
+                 exp=settings['clicks_per_egg'])
     misty.password = "misty"
-    brock = User(username="brock", name="Brock")
+    brock = User(username="brock",
+                 name="Brock",
+                 exp=settings['clicks_per_egg'])
     brock.password = "brock"
 
     users = [ash, misty, brock]

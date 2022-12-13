@@ -13,6 +13,7 @@ class User(db.Model, UserMixin):
     username = db.Column(db.String(50), nullable=False, unique=True)
     name = db.Column(db.String(50), nullable=False)
     hashed_password = db.Column(db.String(255), nullable=False)
+    exp = db.Column(db.Integer, nullable=False)
 
     user_pokemon = db.relationship(
         "UserPokemon", back_populates="user", cascade="all, delete-orphan")
