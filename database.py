@@ -35,6 +35,10 @@ with app.app_context():
         )
         if 'type2' in pokemon.keys():
             new_pokemon.type2 = pokemon['type2']
+        if 'baby' in pokemon.keys():
+            new_pokemon.baby = True
+        else:
+            new_pokemonbaby = False
         if 'evolution_id' in pokemon.keys():
             new_pokemon.evolution_id = pokemon['evolution_id']
         if 'evolution_lvl' in pokemon.keys():
