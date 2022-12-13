@@ -1,5 +1,6 @@
 from flask_login import UserMixin
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import and_
 from sqlalchemy.sql import func
 from werkzeug.security import generate_password_hash, check_password_hash
 
@@ -71,7 +72,7 @@ class UserPokemon(db.Model):
         users_pokemon = UserPokemon \
             .query \
             .join(User) \
-            .filter(UserPokemon.user_id == user_id) \
+            .filter(and_(UserPokemon.user_id == user_id, UserPokemon.level > 0)) \
             .all()
 
         # Level up all pokemon by 1

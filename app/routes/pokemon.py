@@ -34,6 +34,24 @@ def index():
 # POST route for /pokemon/new
 
 
+@bp.route("/egg", methods=["POST"])
+@login_required
+def new_egg():
+    # Add egg to user
+    new_pokemon = UserPokemon(user_id=current_user.id,
+                              pokemon_id=0,
+                              time_received=datetime.now(),
+                              level=0)
+    db.session.add(new_pokemon)
+    db.session.commit()
+
+    # Deplete the user's exp
+    current_user.exp = 0
+    db.session.commit()
+
+    return redirect(url_for('.index'))
+
+
 @bp.route("/new", methods=["POST"])
 @ login_required
 def new_pokemon():
@@ -52,10 +70,6 @@ def new_pokemon():
                               time_received=datetime.now(),
                               level=1)
     db.session.add(new_pokemon)
-    db.session.commit()
-
-    # Deplete the user's exp
-    current_user.exp = 0
     db.session.commit()
 
     return redirect(url_for('.index'))

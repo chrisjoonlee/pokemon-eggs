@@ -1,5 +1,12 @@
 [
     {
+        "id": 0,
+        "name": "Egg",
+        "img_url": "https://i.pinimg.com/originals/02/c7/05/02c70572482476ba3ec8c4962f883705.png",
+        "type1": "???",
+        "description": "It's an egg waiting to hatch..."
+    },
+    {
         "id": 1,
         "name": "Bulbasaur",
         "img_url": "https://static.wikia.nocookie.net/pokemon/images/2/21/001Bulbasaur.png",

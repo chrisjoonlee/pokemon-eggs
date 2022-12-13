@@ -5,7 +5,7 @@
     <!-- Egg -->
     <div class="egg-container">
         <img class="egg-img" src="https://i.pinimg.com/originals/02/c7/05/02c70572482476ba3ec8c4962f883705.png" />
-        <form method="POST" action="{{ url_for('.new_pokemon') }}">
+        <form method="POST" action="{{ url_for('.new_egg') }}">
             {% if exp >= clicks_per_egg %}
             <button class="get-egg-btn">
                 {% else %}
