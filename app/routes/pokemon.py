@@ -5,12 +5,16 @@ from random import random
 
 from app.models import db, Pokemon, User, UserPokemon
 
+from app.settings import settings
+
 bp = Blueprint("pokemon", __name__, url_prefix="")
 
 
 @bp.route("/")
 @login_required
 def index():
+    print("EXP:", current_user.exp)
+
     users_pokemon = UserPokemon \
         .query \
         .join(User) \
@@ -22,7 +26,10 @@ def index():
     # users_pokemon = user_pokemon.filter(
     #     user_pokemon.user_id == current_user.id).all()
 
-    return render_template("pokemon.html", users_pokemon=users_pokemon)
+    return render_template("pokemon.html",
+                           users_pokemon=users_pokemon,
+                           exp=current_user.exp,
+                           clicks_per_egg=settings['clicks_per_egg'])
 
 # POST route for /pokemon/new
 
@@ -37,15 +44,18 @@ def new_pokemon():
         pokemon = Pokemon.query.get(id)
         if pokemon.baby:
             break
-
     print("POKEMON:", pokemon.name)
 
-    # Create new pokemon
+    # Add new pokemon to user
     new_pokemon = UserPokemon(user_id=current_user.id,
                               pokemon_id=pokemon.id,
                               time_received=datetime.now(),
                               level=1)
     db.session.add(new_pokemon)
+    db.session.commit()
+
+    # Deplete the user's exp
+    current_user.exp = 0
     db.session.commit()
 
     return redirect(url_for('.index'))
@@ -54,6 +64,11 @@ def new_pokemon():
 @bp.route("/train", methods=["POST"])
 @ login_required
 def train():
+    # All pokemon level up by 1
     UserPokemon.train(current_user.id)
+
+    # User's exp increases by 1
+    current_user.exp += 1
+    db.session.commit()
 
     return redirect(url_for('.index'))
