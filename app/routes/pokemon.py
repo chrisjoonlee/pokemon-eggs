@@ -3,7 +3,7 @@ from flask import Blueprint, redirect, render_template, request, url_for
 from flask_login import current_user, login_required
 from random import random
 
-from app.models import db, Pokemon, User, user_pokemon
+from app.models import db, Pokemon, User, UserPokemon
 
 bp = Blueprint("pokemon", __name__, url_prefix="")
 
@@ -11,7 +11,13 @@ bp = Blueprint("pokemon", __name__, url_prefix="")
 @bp.route("/")
 @login_required
 def index():
-    return render_template("pokemon.html")
+    users_pokemon = UserPokemon.query.join(User).filter(
+        UserPokemon.user_id == current_user.id).all()
+
+    # users_pokemon = user_pokemon.filter(
+    #     user_pokemon.user_id == current_user.id).all()
+
+    return render_template("pokemon.html", users_pokemon=users_pokemon)
 
 # POST route for /pokemon/new
 
@@ -19,24 +25,21 @@ def index():
 @bp.route("/new", methods=["POST"])
 @ login_required
 def new_pokemon():
-    # Find new baby pokemon
+    # Find new baby pokemon species
     pokemon = None
     while True:
         id = int(random() * 152)
-        pokemon = Pokemon.query.get(id)
+        pokemon = Pokemon.query.get(1)
         if pokemon.baby:
             break
 
-    # Add to user's list of pokemon
-    add_new_pokemon = user_pokemon.insert() \
-        .values(user_id=current_user.id,
-                pokemon_id=pokemon.id,
-                time_hatched=datetime.now(),
-                level=1)
-    db.session.execute(add_new_pokemon)
+    # Create new pokemon
+    new_pokemon = UserPokemon(user_id=current_user.id,
+                              pokemon_id=pokemon.id,
+                              time_received=datetime.now(),
+                              level=1)
+    db.session.add(new_pokemon)
     db.session.commit()
 
-    print(current_user.pokemon)
-
-    return render_template("pokemon.html")
+    return redirect(url_for('.index'))
     # return render_template("pokemon.html")

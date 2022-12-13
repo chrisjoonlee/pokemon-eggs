@@ -6,27 +6,6 @@ from werkzeug.security import generate_password_hash, check_password_hash
 db = SQLAlchemy()
 
 
-user_pokemon = db.Table(
-    "user_pokemon",
-    db.Model.metadata,
-    db.Column("user_id",
-              db.ForeignKey("users.id"),
-              primary_key=True,
-              nullable=False),
-    db.Column("pokemon_id",
-              db.ForeignKey("pokemon.id"),
-              primary_key=True,
-              nullable=False),
-    db.Column("nickname", db.String(50)),
-    db.Column("time_hatched",
-              db.DateTime(timezone=True),
-              nullable=False),
-    db.Column("level", db.Integer,
-              nullable=False)
-
-)
-
-
 class User(db.Model, UserMixin):
     __tablename__ = "users"
 
@@ -35,8 +14,8 @@ class User(db.Model, UserMixin):
     name = db.Column(db.String(50), nullable=False)
     hashed_password = db.Column(db.String(255), nullable=False)
 
-    pokemon = db.relationship(
-        "Pokemon", secondary=user_pokemon, back_populates="users")
+    user_pokemon = db.relationship(
+        "UserPokemon", back_populates="user", cascade="all, delete-orphan")
 
     @property
     def password(self):
@@ -63,5 +42,24 @@ class Pokemon(db.Model):
     evolution_lvl = db.Column(db.Integer)
     description = db.Column(db.String(1000), nullable=False)
 
-    users = db.relationship(
-        "User", secondary=user_pokemon, back_populates="pokemon")
+    user_pokemon = db.relationship(
+        "UserPokemon", back_populates="pokemon", cascade="all, delete-orphan")
+
+
+class UserPokemon(db.Model):
+    __tablename__ = "user_pokemon"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey(
+        "users.id"), nullable=False)
+    pokemon_id = db.Column(db.Integer, db.ForeignKey(
+        "pokemon.id"), nullable=False)
+    nickname = db.Column(db.String(50))
+    time_received = db.Column(db.DateTime(timezone=True), nullable=False)
+    time_hatched = db.Column(db.DateTime(timezone=True))
+    level = db.Column(db.Integer, nullable=False)
+
+    user = db.relationship(
+        "User", back_populates="user_pokemon")
+    pokemon = db.relationship(
+        "Pokemon", back_populates="user_pokemon")
