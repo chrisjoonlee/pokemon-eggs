@@ -27,6 +27,7 @@ def index():
     #     user_pokemon.user_id == current_user.id).all()
 
     return render_template("pokemon.html",
+                           users=User.query.all(),
                            users_pokemon=users_pokemon,
                            exp=current_user.exp,
                            clicks_per_egg=settings['clicks_per_egg'])

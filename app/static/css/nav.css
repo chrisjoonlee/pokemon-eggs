@@ -1,0 +1,45 @@
+.top-banner {
+    align-items: center;
+    background-color: rgb(49, 49, 97);
+    color: white;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 35px;
+    justify-content: space-between;
+    padding-left: 65px;
+}
+
+.logout-btn {
+    background-color: rgb(255, 170, 59);
+    font-size: 1rem;
+    font-weight: 400;
+    height: 35px;
+    padding: 0 15px;
+}
+
+.logout-btn:hover {
+    background-color: rgb(150, 109, 56);
+    color: white;
+}
+
+.users {
+    align-items: center;
+    background-color: rgb(11, 155, 173);
+    display: flex;
+    font-size: 0;
+    padding: 0 50px;
+    width: auto;
+}
+
+.user-btn {
+    background-color: rgb(11, 155, 173);
+    color: white;
+    height: 50px;
+    margin: 0;
+}
+
+.user-btn:hover {
+    background-color: rgb(236, 236, 236);
+    color: black;
+}

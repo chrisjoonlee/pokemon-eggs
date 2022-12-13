@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/pokemon.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/nav.css') }}">
 
     {% if title %}
     <title>{{ title }} - Pokemon Eggs</title>
@@ -17,14 +18,29 @@
 </head>
 
 <body>
-    {% block content %}{% endblock %}
+    <header>
+        <div class="top-banner">
+            <p>TRAINERS</p>
 
-    <!-- Logout Button -->
-    {% if not current_user.is_anonymous %}
-    <form method="POST" action="{{ url_for('session.logout') }}">
-        <button>Logout</button>
-    </form>
-    {% endif %}
+            <!-- Logout Button -->
+            {% if not current_user.is_anonymous %}
+            <form method="POST" action="{{ url_for('session.logout') }}">
+                <button class="logout-btn">Logout</button>
+            </form>
+            {% endif %}
+        </div>
+
+        <!-- Users -->
+        <nav class="users">
+            {% for user in users %}
+            <button class="user-btn">
+                {{ user.name }}
+            </button>
+            {% endfor %}
+        </nav>
+    </header>
+
+    {% block content %}{% endblock %}
 </body>
 
 </html>

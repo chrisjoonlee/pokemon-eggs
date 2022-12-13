@@ -25,14 +25,22 @@
         <!-- Pokemon -->
         <div class="pokemon-list">
             {% for user_pokemon in users_pokemon %}
-            <div class="pokemon-widget">
-                <img src="{{ user_pokemon.pokemon.img_url }}" />
 
-                <p class="pokemon-widget-name">{{ user_pokemon.pokemon.name }}</p>
-                <p class="pokemon-widget-level">Level: {{ user_pokemon.level }}</p>
+            {% if user_pokemon.pokemon_id == 0 %}
+            <div class="pokemon-widget egg-widget">
+                {% else %}
+                <div class="pokemon-widget">
+                    {% endif %}
+                    <img src="{{ user_pokemon.pokemon.img_url }}" />
+
+                    <p class="pokemon-widget-name">{{ user_pokemon.pokemon.name }}</p>
+
+                    {% if user_pokemon.pokemon_id != 0 %}
+                    <p class="pokemon-widget-level">Level: {{ user_pokemon.level }}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
-</div>
-{% endblock %}
+    {% endblock %}

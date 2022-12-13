@@ -65,11 +65,13 @@
 }
 
 .pokemon-widget {
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 10px;
+    width: 150px;
 }
 
 .pokemon-widget:hover img {
@@ -78,6 +80,15 @@
 
 .pokemon-widget img {
     width: 150px;
+}
+
+.egg-widget img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.egg-widget .pokemon-widget-name {
+    margin-bottom: 18px;
 }
 
 .pokemon-widget-name {
