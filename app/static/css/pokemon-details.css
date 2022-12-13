@@ -1,0 +1,53 @@
+.pokemon-details-page {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-details-container {
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 40px;
+    width: 700px;
+}
+
+.pokemon-details-container h1 {
+    font-size: 3rem;
+}
+
+.owner-line {
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
+
+.species-info-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.types-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.type {
+    padding: 10px;
+}
+
+.pokemon-description {
+    background-color: rgb(235, 235, 235);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+}
+
+.indiv-stats {
+    font-size: 1.3rem;
+    opacity: 0.8;
+    width: 100%;
+}
