@@ -1,8 +1,9 @@
 from datetime import datetime
-from flask import Blueprint, redirect, render_template, request, url_for
+from flask import Blueprint, redirect, render_template, url_for
 from flask_login import current_user, login_required
 from random import random
 from sqlalchemy import and_
+from sqlalchemy.orm import joinedload
 
 from app.models import db, Pokemon, User, UserPokemon
 from app.forms.nickname import NicknameForm
@@ -15,18 +16,14 @@ bp = Blueprint("pokemon", __name__, url_prefix="/pokemon")
 @bp.route("/")
 @login_required
 def index():
-    print("EXP:", current_user.exp)
-
+    # Get user's pokemon
     users_pokemon = UserPokemon \
         .query \
-        .join(User) \
-        .join(Pokemon) \
+        .options(joinedload(UserPokemon.user)) \
+        .options(joinedload(UserPokemon.pokemon)) \
         .filter(UserPokemon.user_id == current_user.id) \
         .order_by(UserPokemon.id.desc()) \
         .all()
-
-    # users_pokemon = user_pokemon.filter(
-    #     user_pokemon.user_id == current_user.id).all()
 
     return render_template("pokemon.html",
                            users=User.query.all(),
@@ -101,6 +98,7 @@ def new_hatch(id):
         nickname = form.nickname.data
         if nickname:
             user_pokemon.nickname = nickname
+            db.session.commit()
         print("HEY REDIRECT")
         return redirect(url_for(".index"))
 

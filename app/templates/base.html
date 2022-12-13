@@ -36,9 +36,11 @@
         <!-- Users -->
         <nav class="users">
             {% for user in users %}
-            <button class="user-btn">
-                {{ user.name }}
-            </button>
+            <a href="/users/{{ user.id }}">
+                <button class="user-btn">
+                    {{ user.name }}
+                </button>
+            </a>
             {% endfor %}
         </nav>
     </header>

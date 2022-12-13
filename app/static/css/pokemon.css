@@ -23,11 +23,6 @@
     color: white;
 }
 
-.get-egg-btn:disabled {
-    background-color: rgb(163, 163, 163);
-    cursor: default;
-}
-
 .get-egg-btn:hover:enabled {
     background-color: rgb(75, 155, 75);
 }
@@ -54,7 +49,7 @@
     margin-bottom: 20px;
 }
 
-.train-btn:hover {
+.train-btn:hover:enabled {
     background-color: rgb(128, 56, 56);
 }
 
@@ -75,13 +70,17 @@
     width: 150px;
 }
 
+.pokemon-widget.other {
+    cursor: default;
+}
+
 .img-container {
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.pokemon-widget:hover img {
+.pokemon-widget.mine:hover img {
     transform: rotate(10deg);
 }
 

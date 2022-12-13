@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="main-pokemon-page">
+
+    <div class="main-pokemon-container">
+        <h1>{{ user.name }}'s Pokemon</h1>
+
+        <!-- Pokemon -->
+        <div class="pokemon-list">
+            {% for user_pokemon in users_pokemon %}
+            {% if user_pokemon.pokemon_id == 0 %}
+            <div class="pokemon-widget egg-widget other">
+                {% else %}
+                <div class="pokemon-widget other">
+                    {% endif %}
+
+                    <div class="img-container">
+                        <img src="{{ user_pokemon.pokemon.img_url }}" />
+                    </div>
+
+                    <p class="pokemon-widget-name">
+                        {% if user_pokemon.nickname %}
+                        {{ user_pokemon.nickname }}
+                        {% else %}
+                        {{ user_pokemon.pokemon.name }}
+                        {% endif %}
+                    </p>
+
+                    {% if user_pokemon.pokemon_id != 0 %}
+                    <p class="pokemon-widget-level">Level: {{ user_pokemon.level }}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endblock %}

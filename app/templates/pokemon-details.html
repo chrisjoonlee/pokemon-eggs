@@ -8,7 +8,13 @@
         </form>
 
         <img src="{{ user_pokemon.pokemon.img_url }}" />
-        <h1>Nickname</h1>
+        <h1>
+            {% if user_pokemon.nickname %}
+            {{ user_pokemon.nickname }}
+            {% else %}
+            {{ user_pokemon.pokemon.name }}
+            {% endif %}
+        </h1>
         <p class="owner-line">Owner: {{ user_pokemon.user.name }}</p>
 
         <div class="species-info">

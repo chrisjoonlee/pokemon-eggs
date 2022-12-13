@@ -17,6 +17,11 @@ button {
     text-transform: uppercase;
 }
 
+button:disabled {
+    background-color: rgb(163, 163, 163);
+    cursor: default;
+}
+
 a {
     color: black;
     text-decoration: none;

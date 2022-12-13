@@ -15,6 +15,10 @@
     width: 700px;
 }
 
+.pokemon-details-container img {
+    width: 200px;
+}
+
 .back-btn {
     background-color: rgb(245, 131, 131);
     font-size: 1rem;

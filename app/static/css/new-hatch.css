@@ -40,6 +40,11 @@ textarea {
 
 .nickname-btn {
     background-color: rgb(139, 236, 139);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 800;
+    height: 40px;
+    text-transform: uppercase;
 }
 
 .nickname-btn:hover {
