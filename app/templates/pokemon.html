@@ -13,19 +13,19 @@
     <div class="main-pokemon-container">
         <h1>Your Pokemon</h1>
 
-        <form>
+        <form method="POST" action="{{ url_for('.train') }}">
             <button class="train-btn">Train</button>
         </form>
 
         <!-- Pokemon -->
         <div class="pokemon-list">
             {% for user_pokemon in users_pokemon %}
-            <diV class="pokemon-widget">
+            <div class="pokemon-widget">
                 <img src="{{ user_pokemon.pokemon.img_url }}" />
 
                 <p class="pokemon-widget-name">{{ user_pokemon.pokemon.name }}</p>
                 <p class="pokemon-widget-level">Level: {{ user_pokemon.level }}</p>
-            </diV>
+            </div>
             {% endfor %}
         </div>
     </div>

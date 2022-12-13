@@ -63,3 +63,17 @@ class UserPokemon(db.Model):
         "User", back_populates="user_pokemon")
     pokemon = db.relationship(
         "Pokemon", back_populates="user_pokemon")
+
+    @staticmethod
+    def train(user_id):
+        users_pokemon = UserPokemon \
+            .query \
+            .join(User) \
+            .filter(UserPokemon.user_id == user_id) \
+            .all()
+
+        for user_pokemon in users_pokemon:
+            if user_pokemon.level < 100:
+                user_pokemon.level += 1
+
+        db.session.commit()

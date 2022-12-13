@@ -49,4 +49,11 @@ def new_pokemon():
     db.session.commit()
 
     return redirect(url_for('.index'))
-    # return render_template("pokemon.html")
+
+
+@bp.route("/train", methods=["POST"])
+@ login_required
+def train():
+    UserPokemon.train(current_user.id)
+
+    return redirect(url_for('.index'))
