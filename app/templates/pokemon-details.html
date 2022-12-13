@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="pokemon-details-page">
+    <img src="{{ user_pokemon.pokemon.img_url }}" />
+    <h1>Nickname</h1>
+    <p>Owner: {{ user_pokemon.user.name }}</p>
+    <h2>#{{ user_pokemon.pokemon_id }} {{ user_pokemon.pokemon.name }}</h2>
+    <p>{{ user_pokemon.pokemon.description }}</p>
+
+    <p>Level: {{ user_pokemon.level }}</p>
+    <p>Birthday: {{ user_pokemon.birthday() }}</p>
+</div>
+{% endblock %}

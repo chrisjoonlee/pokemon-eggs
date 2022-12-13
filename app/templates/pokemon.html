@@ -29,7 +29,7 @@
             {% if user_pokemon.pokemon_id == 0 %}
             <div class="pokemon-widget egg-widget">
                 {% else %}
-                <a href="/pokemon/{{ user_pokemon.pokemon_id }}">
+                <a href="/pokemon/{{ user_pokemon.id }}">
                     <div class="pokemon-widget">
                         {% endif %}
                         <img src="{{ user_pokemon.pokemon.img_url }}" />

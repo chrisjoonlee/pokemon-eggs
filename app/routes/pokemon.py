@@ -2,6 +2,7 @@ from datetime import datetime
 from flask import Blueprint, redirect, render_template, request, url_for
 from flask_login import current_user, login_required
 from random import random
+from sqlalchemy import and_
 
 from app.models import db, Pokemon, User, UserPokemon
 
@@ -38,7 +39,14 @@ def index():
 @bp.route("/<id>")
 @login_required
 def pokemon_details(id):
-    return f"<h1>{id}</h1>"
+    user_pokemon = UserPokemon.query \
+        .join(Pokemon) \
+        .filter(UserPokemon.id == int(id)) \
+        .first()
+
+    return render_template("pokemon-details.html",
+                           users=User.query.all(),
+                           user_pokemon=user_pokemon)
 
 
 @bp.route("/new", methods=["POST"])

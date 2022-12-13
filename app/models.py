@@ -71,6 +71,12 @@ class UserPokemon(db.Model):
     pokemon = db.relationship(
         "Pokemon", back_populates="user_pokemon")
 
+    def birthday(self):
+        if self.time_hatched:
+            return self.time_hatched.strftime("%d/%m/%Y, %H: %M")
+        else:
+            return "Not yet hatched"
+
     @staticmethod
     def train(user_id):
         # Get user's pokemon
