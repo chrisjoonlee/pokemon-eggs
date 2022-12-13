@@ -16,6 +16,7 @@ def index():
         .join(User) \
         .join(Pokemon) \
         .filter(UserPokemon.user_id == current_user.id) \
+        .order_by(UserPokemon.id.desc()) \
         .all()
 
     # users_pokemon = user_pokemon.filter(
@@ -32,10 +33,12 @@ def new_pokemon():
     # Find new baby pokemon species
     pokemon = None
     while True:
-        id = int(random() * 152)
-        pokemon = Pokemon.query.get(1)
+        id = int(random() * 151) + 1
+        pokemon = Pokemon.query.get(id)
         if pokemon.baby:
             break
+
+    print("POKEMON:", pokemon.name)
 
     # Create new pokemon
     new_pokemon = UserPokemon(user_id=current_user.id,

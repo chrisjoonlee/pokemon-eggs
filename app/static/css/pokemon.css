@@ -1,13 +1,85 @@
+.main-pokemon-page {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+
+.egg-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.egg-img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.get-egg-btn {
+    background-color: rgb(97, 202, 97);
+    color: white;
+}
+
+.get-egg-btn:hover {
+    background-color: rgb(75, 155, 75);
+}
+
 .main-pokemon-container {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.main-pokemon-container h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.train-btn {
+    background-color: rgb(175, 80, 80);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.train-btn:hover {
+    background-color: rgb(128, 56, 56);
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon-widget {
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
-h1 {
+.pokemon-widget:hover img {
+    transform: rotate(10deg);
+}
+
+.pokemon-widget img {
+    width: 150px;
+}
+
+.pokemon-widget-name {
+    font-size: 1.3rem;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
-.pokemon-img {
-    width: 100px;
+.pokemon-widget-level {
+    opacity: 0.7;
 }
