@@ -3,6 +3,10 @@
 {% block content %}
 <div class="pokemon-details-page">
     <div class="pokemon-details-container">
+        <form method="GET" action="{{ url_for('pokemon.index') }}">
+            <button class="back-btn">Back</button>
+        </form>
+
         <img src="{{ user_pokemon.pokemon.img_url }}" />
         <h1>Nickname</h1>
         <p class="owner-line">Owner: {{ user_pokemon.user.name }}</p>

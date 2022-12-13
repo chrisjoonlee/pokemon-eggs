@@ -10,9 +10,20 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin: 100px 20px;
     padding: 40px;
     width: 700px;
+}
+
+.back-btn {
+    background-color: rgb(245, 131, 131);
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.back-btn:hover {
+    background-color: rgb(192, 84, 84);
+    color: white;
 }
 
 .pokemon-details-container h1 {
