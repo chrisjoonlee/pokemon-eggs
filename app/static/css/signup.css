@@ -50,3 +50,17 @@ textarea {
 .signup-btn {
     cursor: pointer;
 }
+
+.form-error-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.form-error {
+    color: red;
+    font-style: italic;
+    list-style: none;
+}

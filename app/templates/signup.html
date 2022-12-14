@@ -10,7 +10,7 @@
         Pokemon Eggs!
     </h1>
 
-    <form method="post" action="/" class="signup-form">
+    <form method="post" action="{{ url_for('users.signup') }}" class="signup-form">
         {{ form.csrf_token }}
 
         <!-- Username field -->
@@ -18,9 +18,9 @@
             {{ form.username.label }} {{ form.username(class="signup-input") }}
 
             {% if form.username.errors %}
-            <ul>
+            <ul class="form-error-list">
                 {% for error in form.username.errors %}
-                <li>{{ error }}</li>
+                <li class="form-error">{{ error }}</li>
                 {% endfor %}
             </ul>
             {% endif %}
@@ -31,9 +31,9 @@
             {{ form.name.label }} {{ form.name(class="signup-input") }}
 
             {% if form.name.errors %}
-            <ul>
+            <ul class="form-error-list">
                 {% for error in form.name.errors %}
-                <li>{{ error }}</li>
+                <li class="form-error">{{ error }}</li>
                 {% endfor %}
             </ul>
             {% endif %}
@@ -44,9 +44,9 @@
             {{ form.password.label }} {{ form.password(class="signup-input") }}
 
             {% if form.password.errors %}
-            <ul>
+            <ul class="form-error-list">
                 {% for error in form.password.errors %}
-                <li>{{ error }}</li>
+                <li class="form-error">{{ error }}</li>
                 {% endfor %}
             </ul>
             {% endif %}
@@ -57,9 +57,9 @@
             {{ form.confirm_password.label }} {{ form.confirm_password(class="signup-input") }}
 
             {% if form.confirm_password.errors %}
-            <ul>
+            <ul class="form-error-list">
                 {% for error in form.confirm_password.errors %}
-                <li>{{ error }}</li>
+                <li class="form-error">{{ error }}</li>
                 {% endfor %}
             </ul>
             {% endif %}

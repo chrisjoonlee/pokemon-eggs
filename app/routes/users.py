@@ -4,6 +4,7 @@ from sqlalchemy.orm import joinedload
 
 from app.models import db, Pokemon, User, UserPokemon
 from app.forms.signup import SignUpForm
+from app.settings import settings
 
 bp = Blueprint("users", __name__, url_prefix="/users")
 
@@ -40,6 +41,17 @@ def signup():
         return redirect(url_for("pokemon.index"))
 
     form = SignUpForm()
+    if form.validate_on_submit():
+        # Create new user
+        user = User(
+            username=form.username.data,
+            name=form.name.data,
+            exp=settings['clicks_per_egg']
+        )
+        user.password = form.password.data
+        db.session.add(user)
+        db.session.commit()
+        return redirect(url_for("pokemon.index"))
 
     return render_template("signup.html",
                            form=form)

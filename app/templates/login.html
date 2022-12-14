@@ -20,9 +20,9 @@
             {{ form.username.label }} {{ form.username(class="login-input") }}
 
             {% if form.username.errors %}
-            <ul>
+            <ul class="form-error-list">
                 {% for error in form.username.errors %}
-                <li>{{ error }}</li>
+                <li class="form-error">{{ error }}</li>
                 {% endfor %}
             </ul>
             {% endif %}
@@ -33,9 +33,9 @@
             {{ form.password.label }} {{ form.password(class="login-input") }}
 
             {% if form.password.errors %}
-            <ul>
+            <ul class="form-error-list">
                 {% for error in form.password.errors %}
-                <li>{{ error }}</li>
+                <li class="form-error">{{ error }}</li>
                 {% endfor %}
             </ul>
             {% endif %}
