@@ -26,7 +26,8 @@ def index():
         .all()
 
     return render_template("pokemon.html",
-                           users=User.query.all(),
+                           current_user=current_user,
+                           users=current_user.get_other_users(),
                            users_pokemon=users_pokemon,
                            exp=current_user.exp,
                            clicks_per_egg=settings['clicks_per_egg'])
@@ -43,7 +44,8 @@ def pokemon_details(id):
         .first()
 
     return render_template("pokemon-details.html",
-                           users=User.query.all(),
+                           current_user=current_user,
+                           users=current_user.get_other_users(),
                            user_pokemon=user_pokemon)
 
 
@@ -92,6 +94,7 @@ def new_hatch(id):
         .filter(UserPokemon.id == int(id)) \
         .first()
 
+    # Form for new nickname
     form = NicknameForm()
     if form.validate_on_submit():
         print("VALIDATED")

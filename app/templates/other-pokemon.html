@@ -4,10 +4,15 @@
 <div class="main-pokemon-page">
 
     <div class="main-pokemon-container">
-        <h1>{{ user.name }}'s Pokemon</h1>
+        <h1>{{ other_user.name }}'s Pokemon</h1>
 
         <!-- Pokemon -->
         <div class="pokemon-list">
+            <!-- If user doesn't have any pokemon -->
+            {% if not users_pokemon %}
+            <p>It looks like {{ other_user.name }} doesn't have any Pokemon...</p>
+            {% endif %}
+
             {% for user_pokemon in users_pokemon %}
             {% if user_pokemon.pokemon_id == 0 %}
             <div class="pokemon-widget egg-widget other">

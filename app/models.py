@@ -35,6 +35,10 @@ class User(db.Model, UserMixin):
     def check_password(self, password):
         return check_password_hash(self.password, password)
 
+    def get_other_users(self):
+        users = User.query.filter(User.id != self.id).all()
+        return users
+
 
 class Pokemon(db.Model):
     __tablename__ = "pokemon"
@@ -109,7 +113,7 @@ class UserPokemon(db.Model):
                 # Replace data with that of new pokemon
                 user_pokemon.pokemon_id = pokemon.id
                 user_pokemon.time_hatched = datetime.now()
-                user_pokemon.level = 0
+                user_pokemon.level = 1
 
                 new_hatch_id = user_pokemon.id
 

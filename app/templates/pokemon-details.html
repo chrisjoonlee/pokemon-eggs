@@ -21,9 +21,13 @@
             <div class="species-info-header">
                 <h2>#{{ user_pokemon.pokemon_id }} {{ user_pokemon.pokemon.name }}</h2>
                 <div class="types-container">
-                    <div class="type">{{ user_pokemon.pokemon.type1 }}</div>
+                    <div class="type type-{{ user_pokemon.pokemon.type1 }}">
+                        {{ user_pokemon.pokemon.type1 }}
+                    </div>
                     {% if user_pokemon.pokemon.type2 %}
-                    <div class="type">{{ user_pokemon.pokemon.type2 }}</div>
+                    <div class="type type-{{ user_pokemon.pokemon.type2 }}">
+                        {{ user_pokemon.pokemon.type2 }}
+                    </div>
                     {% endif %}
                 </div>
             </div>
@@ -31,10 +35,12 @@
             <p class="pokemon-description">{{ user_pokemon.pokemon.description }}</p>
         </div>
 
+        {% if user_pokemon.pokemon.id != 0 %}
         <div class="indiv-stats">
             <p>Level: {{ user_pokemon.level }}</p>
             <p>Birthday: {{ user_pokemon.birthday() }}</p>
         </div>
+        {% endif %}
     </div>
 </div>
 {% endblock %}

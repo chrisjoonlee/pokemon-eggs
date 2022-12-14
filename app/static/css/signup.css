@@ -37,7 +37,8 @@ textarea {
     padding: 10px 15px;
 }
 
-.back-btn {
+.signup-back-btn {
+    background-color: rgb(245, 131, 131);
     bottom: 60px;
     font-size: 1.3rem;
     font-weight: 400;
@@ -45,6 +46,11 @@ textarea {
     left: 85px;
     padding: 0 20px;
     position: relative;
+}
+
+.signup-back-btn:hover {
+    background-color: rgb(192, 84, 84);
+    color: white;
 }
 
 .signup-btn {

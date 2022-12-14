@@ -32,6 +32,7 @@
 
 .pokemon-details-container h1 {
     font-size: 3rem;
+    margin-bottom: 7px;
 }
 
 .owner-line {
@@ -65,4 +66,82 @@
     font-size: 1.3rem;
     opacity: 0.8;
     width: 100%;
+}
+
+
+
+/* STYLING FOR TYPES */
+
+.type {}
+
+.type-Bug {
+    background: linear-gradient(white, rgb(179, 218, 179));
+}
+
+.type-Dark {
+    background: linear-gradient(white, rgb(117, 113, 126));
+}
+
+.type-Dragon {
+    background: linear-gradient(white, rgb(192, 169, 255));
+}
+
+.type-Electric {
+    background: linear-gradient(white, rgb(254, 255, 169));
+}
+
+.type-Fairy {
+    background: linear-gradient(white, rgb(255, 201, 243));
+}
+
+.type-Fighting {
+    background: linear-gradient(white, rgb(255, 169, 181));
+}
+
+.type-Fire {
+    background: linear-gradient(white, rgb(255, 169, 169));
+}
+
+.type-Flying {
+    background: linear-gradient(white, rgb(169, 221, 255));
+}
+
+.type-Ghost {
+    background: linear-gradient(white, rgb(121, 113, 160));
+}
+
+.type-Grass {
+    background: linear-gradient(white, rgb(189, 255, 169));
+}
+
+.type-Ground {
+    background: linear-gradient(white, rgb(207, 187, 164));
+}
+
+.type-Ice {
+    background: linear-gradient(white, rgb(169, 249, 255));
+}
+
+.type-Normal {
+    background: linear-gradient(white, rgb(194, 194, 194));
+}
+
+.type-Poison {
+    background: linear-gradient(white, rgb(192, 150, 216));
+}
+
+.type-Rock {
+    background: linear-gradient(white, rgb(143, 135, 126));
+}
+
+.type-Psychic {
+    background: linear-gradient(white, rgb(245, 188, 247));
+}
+
+.type-Steel {
+    background: linear-gradient(white, rgb(135, 156, 196));
+}
+
+.type-Water {
+    background: linear-gradient(white, rgb(169, 206, 255));
 }

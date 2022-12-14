@@ -25,7 +25,7 @@
     <header>
         {% if not current_user.is_anonymous %}
         <div class="top-banner">
-            <p>TRAINERS</p>
+            <p>All trainers</p>
 
             <!-- Logout Button -->
             <form method="POST" action="{{ url_for('session.logout') }}">
@@ -36,6 +36,12 @@
 
         <!-- Users -->
         <nav class="users">
+            <a href="{{ url_for('pokemon.index') }}">
+                <button class="user-btn current-user-btn">
+                    {{ current_user.name }}
+                </button>
+            </a>
+
             {% for user in users %}
             <a href="/users/{{ user.id }}">
                 <button class="user-btn">

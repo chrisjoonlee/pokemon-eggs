@@ -1,5 +1,5 @@
 from flask import Blueprint, redirect, render_template, url_for
-from flask_login import current_user, login_required
+from flask_login import current_user, login_required, login_user
 from sqlalchemy.orm import joinedload
 
 from app.models import db, Pokemon, User, UserPokemon
@@ -28,8 +28,9 @@ def other_user(id):
         .all()
 
     return render_template("other-pokemon.html",
-                           user=User.query.get(id),
-                           users=User.query.all(),
+                           current_user=current_user,
+                           other_user=User.query.get(id),
+                           users=current_user.get_other_users(),
                            users_pokemon=users_pokemon
                            )
 
@@ -51,6 +52,9 @@ def signup():
         user.password = form.password.data
         db.session.add(user)
         db.session.commit()
+
+        # Login user
+        login_user(user)
         return redirect(url_for("pokemon.index"))
 
     return render_template("signup.html",
