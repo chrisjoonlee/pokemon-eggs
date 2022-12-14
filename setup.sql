@@ -1,0 +1,1 @@
+CREATE DATABASE pokemon_eggs_db;
