@@ -4,9 +4,8 @@
 {% block content %}
 <div class="landing-page">
 
-    <img src="https://archives.bulbagarden.net/media/upload/thumb/b/b8/025Pikachu_LG.png/600px-025Pikachu_LG.png">
-
-    <h1 class="welcome-msg">
+    <img src="{{ img_url }}" />
+    <h1 class=" welcome-msg">
         Welcome to
     </h1>
     <h1 class="welcome-msg">
@@ -45,6 +44,9 @@
         <!-- Login -->
         <div>{{ form.login(class="login-btn") }}</div>
     </form>
+
+    <!-- Sign Up -->
+    <a href="{{ url_for('users.signup') }}"><button class="signup-btn">Sign Up</button></a>
 
 </div>
 {% endblock %}

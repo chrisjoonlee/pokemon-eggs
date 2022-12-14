@@ -3,6 +3,7 @@ from flask_login import current_user, login_user, logout_user
 
 from app.models import User
 from app.forms.login import LoginForm
+from app.settings import settings
 
 bp = Blueprint("session", __name__, url_prefix="/session")
 
@@ -28,7 +29,7 @@ def login():
         login_user(user)
         return redirect(url_for("pokemon.index"))
 
-    return render_template("login.html", form=form)
+    return render_template("login.html", form=form, img_url=settings["login_img_url"])
 
 
 @bp.route("/logout", methods=["POST"])

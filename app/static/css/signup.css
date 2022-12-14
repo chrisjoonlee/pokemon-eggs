@@ -1,0 +1,52 @@
+.signup-page {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.signup-form {
+    align-items: flex-end;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px 30px;
+    width: 600px;
+}
+
+.signup-form label {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.signup-input {
+    height: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.signup-input,
+textarea {
+    background-color: pink;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    padding: 10px 15px;
+}
+
+.back-btn {
+    bottom: 60px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    height: 40px;
+    left: 85px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.signup-btn {
+    cursor: pointer;
+}

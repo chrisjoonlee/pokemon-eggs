@@ -7,6 +7,7 @@
 
 .landing-page img {
     height: 300px;
+    margin-bottom: 20px;
 }
 
 .welcome-msg {
@@ -46,12 +47,32 @@ textarea {
     padding: 10px 15px;
 }
 
+.signup-btn {
+    align-items: center;
+    bottom: 60px;
+    background-color: #ffd45d;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 400;
+    height: 40px;
+    left: 30px;
+    padding: 0 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.signup-btn:hover {
+    background-color: #cca334;
+    color: white;
+}
+
 .login-btn {
     background-color: rgb(139, 236, 139);
     cursor: pointer;
     display: flex;
     font-size: 1.3rem;
     height: 40px;
+    margin-left: 20px;
     padding: 0 20px;
     text-transform: uppercase;
 }

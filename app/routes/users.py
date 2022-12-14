@@ -3,6 +3,7 @@ from flask_login import current_user, login_required
 from sqlalchemy.orm import joinedload
 
 from app.models import db, Pokemon, User, UserPokemon
+from app.forms.signup import SignUpForm
 
 bp = Blueprint("users", __name__, url_prefix="/users")
 
@@ -30,3 +31,15 @@ def other_user(id):
                            users=User.query.all(),
                            users_pokemon=users_pokemon
                            )
+
+
+# Route for signing up a new user
+@bp.route("/new", methods=["POST", "GET"])
+def signup():
+    if current_user.is_authenticated:
+        return redirect(url_for("pokemon.index"))
+
+    form = SignUpForm()
+
+    return render_template("signup.html",
+                           form=form)
