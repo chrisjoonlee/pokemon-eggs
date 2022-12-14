@@ -9,6 +9,7 @@ This is a simple Flask app that lets you hatch Pokemon eggs, level up Pokemon, a
 * Evolve pokemon when they reach a certain level
 * Give your pokemon nicknames when they hatch
 * See the details of pokemon on your team
+
 The app uses a PostgreSQL database to store data about users, pokemon, and the specific pokemon instances of each user. That means that data persists throughout sessions. If you use the app deployed on the Internet, your pokemon and the name you sign up with will be there for all other app users to see.
 
 ## What I Learned
