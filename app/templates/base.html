@@ -22,8 +22,8 @@
 </head>
 
 <body>
+    {% if not current_user.is_anonymous %}
     <header>
-        {% if not current_user.is_anonymous %}
         <div class="top-banner">
             <p>All trainers</p>
 
@@ -31,7 +31,6 @@
             <form method="POST" action="{{ url_for('session.logout') }}">
                 <button class="logout-btn">Logout</button>
             </form>
-            {% endif %}
         </div>
 
         <!-- Users -->
@@ -51,6 +50,7 @@
             {% endfor %}
         </nav>
     </header>
+    {% endif %}
 
     {% block content %}{% endblock %}
 </body>

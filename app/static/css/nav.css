@@ -33,6 +33,7 @@
     background-color: rgb(11, 155, 173);
     display: flex;
     font-size: 0;
+    overflow-x: auto;
     width: auto;
 }
 
@@ -50,4 +51,23 @@
 
 .current-user-btn {
     background-color: rgb(74, 180, 194)
+}
+
+
+/* SCROLLBAR STYLES */
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(116, 207, 219);
 }
