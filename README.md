@@ -23,6 +23,7 @@ The app uses a PostgreSQL database to store data about users, pokemon, and the s
 ### Option 1)
 Go to the online app [here](https://chrisjoonlee-pokemon-eggs.herokuapp.com/)
 (Deployed through Heroku)
+EDIT: It was too expensive for me to maintain the Heroku database, so please go to option 2
 
 ### Option 2)
 
